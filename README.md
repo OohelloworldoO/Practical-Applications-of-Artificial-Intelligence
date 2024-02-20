@@ -16,6 +16,7 @@ conda create --name tensorflow python=3.5 anaconda
 </code></pre>
 這邊我原本是照著書本上的使用cmd，但無法辨識"conda"的comand，所以我用anaconda prompt也能正常運行
 
+
 |  comand   | 用途  |
 |  :----:  | :----:  |
 |  conda create  | 建立虛擬環境  |
@@ -32,7 +33,9 @@ conda create --name tensorflow python=3.5 anaconda
 <pre>
 deactivate tensorflow
 </code></pre>
-現在不需要在後面添加要退出的python name of envirement了
+
+
+現在不需要在後面添加要退出的python name of envirement了，只需要輸入:
 <pre>
 conda deactivate
 </code></pre>
