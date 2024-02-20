@@ -2,13 +2,13 @@
 
 ## 建立Tensorflow的Anaconda虛擬環境  
 
-### 建立&切換工作目錄  
+### 1.建立&切換工作目錄  
 <pre>
 md \pythonwork
 cd \pythonwork
 </code></pre>
 
-### 建立Anaconda虛擬環境  
+### 2.建立Anaconda虛擬環境  
 <pre>
 conda create --name tensorflow python=3.5 anacond
 </code></pre>
@@ -20,3 +20,5 @@ conda create --name tensorflow python=3.5 anacond
 | --name tensorflow  | 虛擬環境命名:tensorflow |
 | python=3.5  | version |
 | anaconda  | 建立虛擬環境時 也會同時安裝其他python軟件 |
+
+![这是图片](/images/1.png "1")
