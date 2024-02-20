@@ -15,6 +15,7 @@ conda create --name tensorflow python=3.5 anacond
 這邊我原本是照著書本上的使用cmd，但無法辨識"conda"的comand，所以我用anaconda prompt也能正常運行
 
 |  comand   | 用途  |
+|  :----:  | :----:  |
 |  conda create  | 建立虛擬環境  |
 | --name tensorflow  | 虛擬環境命名:tensorflow |
 | python=3.5  | version |
