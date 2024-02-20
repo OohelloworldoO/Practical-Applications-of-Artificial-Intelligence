@@ -28,8 +28,17 @@ conda create --name tensorflow python=3.5 anaconda
 ![註解1](/images/1.png "1")
 
 啟動&關閉:  
+書本上是教更新前的指令來退出tensorflow虛擬環境:
+<pre>
+deactivate tensorflow
+</code></pre>
+現在不需要在後面添加要退出的python name of envirement了
+<pre>
+conda deactivate
+</code></pre>
 
 ![註解2](/images/2.png "2")
+
 
 ### 3.在Anaconda虛擬環境安裝Tensorflow & Keras  
 
