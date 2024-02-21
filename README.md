@@ -91,10 +91,19 @@ If this would cause problems for you,
 please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
 ```
 
-那我去論壇上找solution，發現很多人跟我遇到一樣的問題
-Pyarrow好像是下一個版本的主要組件
+那我去論壇上找了很多solution，發現很多人跟我遇到一樣的問題
+解決方法很多，但8成沒用
+最後是看到這個
+```
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+```
+Pyarrow好像是下一個版本的主要組件，安裝後就解決了
+
 <pre>
 pip install pyarrow
 </code></pre>
-安裝後就解決了
+
 
