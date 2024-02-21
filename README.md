@@ -102,11 +102,21 @@ but was not found to be installed on your system.
 If this would cause problems for you,
 ```
 
-Pyarrow好像是下一個版本的主要組件，安裝後就解決了
+Pyarrow好像是下一個版本的主要組件，安裝後就解決了(使用cmd的python沒問題了而已)
 <pre>
 pip install pyarrow
 </code></pre>
-結果Jupyter notebook打開來還是一樣no module named 'pandas'
 
-[solution1](https://saturncloud.io/blog/how-to-fix-modulenotfounderror-no-module-named-pandas/)
-[solution2](https://saturncloud.io/blog/jupyter-notebook-no-module-named-pandas/)
+結果Jupyter notebook打開來還是一樣no module named 'pandas'
+用anaconda prompt安裝，jupyter notebook就不會再該該叫了
+<pre>
+conda install pandas
+</code></pre>
+參考網址:
+[解決本地端python](https://saturncloud.io/blog/how-to-fix-modulenotfounderror-no-module-named-pandas/)  
+[解決jupyther notebook](https://saturncloud.io/blog/jupyter-notebook-no-module-named-pandas/)  
+
+第一個下載Mnist資料、讀取+查看沒問題了，終於可以開始學東西了TAT
+![註解6](/images/5.png "6")
+
+
