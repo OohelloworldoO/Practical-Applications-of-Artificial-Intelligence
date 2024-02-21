@@ -51,14 +51,17 @@ pip install tensorflow
 pip install Keras
 </code></pre>
 
+
 我自己是出現這個問題:
 
 ![註解3](/images/3.png "3")
+
 
 會遇到這個問題是因為安裝Anaconda的時候沒有新增[環境變數]
 因此使用者必須手動加入
 在[搜尋]列中輸入[環境變數]，點擊[編輯系統環境變數]  
 路徑通常可以在「C:\Users\使用者名稱\anaconda3\Scripts」目錄底下可以找到  
+
 
 [重啟]命令提示列，再次輸入[jupyter notebook]
 會遇到新的問題：「ImportError: DLL load failed: 找不到指定的模組。」
@@ -66,5 +69,32 @@ pip install Keras
 這個路徑通常在「C:\Users\使用者名稱\anaconda3\Library\bin」回去編輯環境變數，再次新增變數路徑。
 再次重啟就成功了
 
-開啟jupyter notebook後會遇到這個問題，把command改成pip3 install tensorflow問題就解決了
+
+開啟jupyter notebook後會遇到這個問題
 ![註解4](/images/4.png "4")
+把command改成這樣重新下載，問題就解決了
+<pre>
+pip3 install tensorflow
+</code></pre>
+
+在import pandas的時候又會找不到module
+所以我去cmd進入python後輸入
+<pre>
+import pandas
+</code></pre>
+他給我了這個說明:
+
+```
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+```
+
+那我去論壇上找solution，發現很多人跟我遇到一樣的問題
+Pyarrow好像是下一個版本的主要組件
+<pre>
+pip install pyarrow
+</code></pre>
+安裝後就解決了
+
