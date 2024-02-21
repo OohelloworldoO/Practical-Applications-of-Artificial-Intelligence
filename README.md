@@ -78,6 +78,7 @@ pip3 install tensorflow
 </code></pre>
 
 在import pandas的時候又會找不到module
+![註解5](/images/5.png "5")
 所以我去cmd進入python後輸入
 <pre>
 import pandas
@@ -100,10 +101,12 @@ Pyarrow will become a required dependency of pandas in the next major release of
 but was not found to be installed on your system.
 If this would cause problems for you,
 ```
-Pyarrow好像是下一個版本的主要組件，安裝後就解決了
 
+Pyarrow好像是下一個版本的主要組件，安裝後就解決了
 <pre>
 pip install pyarrow
 </code></pre>
+結果Jupyter notebook打開來還是一樣no module named 'pandas'
 
-
+[solution1](https://saturncloud.io/blog/how-to-fix-modulenotfounderror-no-module-named-pandas/)
+[solution2](https://saturncloud.io/blog/jupyter-notebook-no-module-named-pandas/)
