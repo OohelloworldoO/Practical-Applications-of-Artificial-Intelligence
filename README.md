@@ -63,4 +63,8 @@ pip install Keras
 [重啟]命令提示列，再次輸入[jupyter notebook]
 會遇到新的問題：「ImportError: DLL load failed: 找不到指定的模組。」
 要解決這個問題，得將相關模組的路徑也加入環境變數
-這個路徑通常在「C:\Users\使用者名稱\anaconda3\Library\bin」，回去編輯環境變數，再次新增變數路徑。再次重啟就成功了
+這個路徑通常在「C:\Users\使用者名稱\anaconda3\Library\bin」回去編輯環境變數，再次新增變數路徑。
+再次重啟就成功了
+
+開啟jupyter notebook後會遇到這個問題，把command改成pip3 install tensorflow問題就解決了
+![註解4](/images/4.png "4")
