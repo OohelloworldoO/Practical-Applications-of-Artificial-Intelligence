@@ -2,7 +2,7 @@
 
 python復健中...順便完善有關Deep Learning知識庫
 
-## 建立Tensorflow的Anaconda虛擬環境&solve problems  
+## 建立Tensorflow的Anaconda虛擬環境 & Solve issuse  
 
 ### 1.建立&切換工作目錄  
 
