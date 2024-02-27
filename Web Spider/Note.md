@@ -1,3 +1,19 @@
+## python requests 套件:
+
+<pre>
+
+print(r.text) #列出文字
+
+print(r.encoding) #列出編碼
+
+print(r.status_code) #列出 HTTP 狀態碼
+
+print(r.headers) #列出 HTTP Response Headers
+
+print(r.headers['Content-Type']) #印出 Header 中的 Content-Type
+
+</code></pre>
+
 ## requests module 用來下載網頁上的資料 透過 http 請求網頁伺服器下載指定的資料
 
 Get 請求即可直接下載
