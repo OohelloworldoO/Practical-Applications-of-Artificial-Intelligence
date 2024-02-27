@@ -1,19 +1,3 @@
-## python requests 套件:
-
-<pre>
-
-print(r.text) #列出文字
-
-print(r.encoding) #列出編碼
-
-print(r.status_code) #列出 HTTP 狀態碼
-
-print(r.headers) #列出 HTTP Response Headers
-
-print(r.headers['Content-Type']) #印出 Header 中的 Content-Type
-
-</code></pre>
-
 ## requests module 用來下載網頁上的資料 透過 http 請求網頁伺服器下載指定的資料
 
 Get 請求即可直接下載
@@ -49,14 +33,54 @@ r = requests.get('http://httpbin.org/get', params = my_params)
 print(r.url)
 </code></pre>
 
+## 回應資料分析 從回應中取出各種我們需要的資料
+
+<pre>
+
+print(r.text) #列出文字
+
+print(r.encoding) #列出編碼
+
+print(r.status_code) #列出 HTTP 狀態碼
+
+print(r.headers) #列出 HTTP Response Headers
+
+print(r.headers['Content-Type']) #印出 Header 中的 Content-Type
+
+</code></pre>
+
 ## 自訂請求 header
 
 <pre>
-# 自訂表頭
+# 自訂表頭 許多時候網站會擋掉 UA 是 python-request 的請求，因此我們很常需要自訂 Header
 my_headers = {'user-agent': 'my-app/0.0.1'}
 
 # 將自訂表頭加入 GET 請求中
 r = requests.get('http://httpbin.org/get', headers = my_headers)
+</code></pre>
+
+##　解析 JSON 資料
+如果取得的是 json 格式資料 requests 有內建解析函式
+
+<pre>
+r = requests.get('https://api.github.com/events')
+r.json()
+</code></pre>
+
+## Timeout()
+
+避免程式在維修中或故障的網站停留太久 或是用來檢查是否可存取時很方便
+
+<pre>
+requests.get('http://github.com', timeout=[SECOND])
+</code></pre>
+
+## 指定編碼
+
+通常網站會使用 UTF-8 編碼 但若不是可用這個方法修改讀取編碼
+
+<pre>
+r.encoding = 'ISO-8859-1'
 </code></pre>
 
 ## 帳戶密碼登入
@@ -123,3 +147,17 @@ my_cookies = dict(my_cookie_name='G. T. Wang')
 # 將 cookie 加入 GET 請求
 r = requests.get("http://httpbin.org/cookies", cookies = my_cookies)
 </code></pre>
+
+## 修改 Cookie
+
+<pre>
+url = 'http://httpbin.org/cookies'
+cookies = dict(cookies_are='working')
+
+r = requests.get(url, cookies=cookies)
+r.text
+</code></pre>
+
+[資料來源 1](https://pypi.org/project/requests/)
+[資料來源 2](https://github.com/requests/requests)
+[資料來源 3](http://docs.python-requests.org/en/master/user/quickstart/)
