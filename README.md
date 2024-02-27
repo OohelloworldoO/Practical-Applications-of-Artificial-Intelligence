@@ -1,5 +1,9 @@
 python 復健中...順便完善有關 Deep Learning & Artificial Intelligence 知識庫
 
+# Web Spider
+
+[網路爬蟲筆記](https://github.com/OohelloworldoO/Practical-Applications-of-Artificial-Intelligence/blob/main/Web%20Spider/Note.md#python-requests-%E5%A5%97%E4%BB%B6)
+
 # Weka
 
 [Weka 筆記](https://github.com/OohelloworldoO/Practical-Applications-of-Artificial-Intelligence/blob/main/Weka/Note.md)
