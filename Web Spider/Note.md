@@ -158,6 +158,6 @@ r = requests.get(url, cookies=cookies)
 r.text
 </code></pre>
 
-[資料來源 1](https://pypi.org/project/requests/)
-[資料來源 2](https://github.com/requests/requests)
+[資料來源 1](https://pypi.org/project/requests/)  
+[資料來源 2](https://github.com/requests/requests)  
 [資料來源 3](http://docs.python-requests.org/en/master/user/quickstart/)
