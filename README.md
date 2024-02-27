@@ -2,6 +2,8 @@ python 復健中...順便完善有關 Deep Learning & Artificial Intelligence �
 
 # Weka
 
+[Weka 筆記](https://github.com/OohelloworldoO/Practical-Applications-of-Artificial-Intelligence/blob/main/Weka/Note.md)
+
 | comand |    用途    |
 | :----: | :--------: |
 |   %    |    註解    |
