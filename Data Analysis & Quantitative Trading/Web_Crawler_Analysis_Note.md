@@ -1,9 +1,44 @@
 原本是照著老師上課用的Spyder Launch操作 但發現編譯的問題很多(像是可以輸出卻無法輸入) 加上不熟悉  
-後來所以改成用我最熟悉的vscode操作 因為我以前寫python也是用vscode 環境都已經弄好了  
+後來所以改成用我最熟悉的vscode操作 因為我以前寫python也是用vscode 環境都已經弄好了 用markdown寫筆記也可以及時看到成效(不用git push)  
 
 ## 股票
-![註解1](/images/k線.png "k線")  
-K線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表現，其中紅色代表上漲，綠色代表下跌，而中間的蠟燭上下限標記開盤及收盤價格，K線的上下橫線則為當日最高與最低價格。
+
+### K線
+
+![註解1](./images/k線.png "k線")
+[圖片來源網址](https://tw.stock.yahoo.com/news/%E4%BB%80%E9%BA%BC%E6%98%AFk%E7%B7%9Ak%E7%B7%9A%E6%80%8E%E9%BA%BC%E7%9C%8B-102019742.html)  
+
+K線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表現 其中紅色代表上漲 綠色代表下跌(話說我一直以為綠色是上漲)  
+而中間的蠟燭上下限標記開盤及收盤價格 K線的上下橫線則為當日最高與最低價格   
+
+### 均線
+
+均線紀錄了一段特定時間中股票持有成本的平均值 英文原名是Moving Average(MA)
+舉例來說，下表是某檔股票5日的收盤價格，將5日的價格加總除以5即為5日均價，以每一天為中心計算前後兩日加總的均價，就能連成一條5日價格均線了。
+
+|     時間      |價格|
+| :---------------: | :-------------: |
+|     D-2      |52.5|
+|     D-1      |53.0|
+|      D       |59.5|
+|     D+1      |55.2|
+|     D+2      |49.5|
+|     5日均價   |53.94|
+
+而隨著加總平均計算的天數不同 均線代表的意涵也不同 以下是常見的均線技術分析:  
+
+|      均線種類       |                    說明                    |                    分析意義                    |
+| :---------------: | :-----------------------------------------: |:-----------------------------------------: |
+|   5日均線    |                周線，極短線操作指標                 | 飆股跌破周線可能是出場時機|
+| 10日均線 |           雙周線，短線操作指標           | 強勢股跌破雙周線可能會進入短期整理 |
+|    20日均線     |                   月線，多頭操作指標                  | 跌破月線可能會進入短期空頭修正格局 |
+|     60日均線      | 季線，中期操作指標 | 跌破季線可能會進入長期空頭修正格局 |
+|     240日均線      | 年線，長期操作指標 | 跌破年線可能會進入長期空頭修正格局 |
+
+
+### 交易量  
+
+圖片下方的副圖表為每日的交易量 長條圖顏色對應當日的漲跌顯示  
 
 ## 複習一下網頁組成  
 
@@ -204,15 +239,19 @@ r = requests.get(url, cookies=cookies)
 r.text
 </code></pre>
 
+
 [參考資料 1](https://pypi.org/project/requests/)  
 [參考資料 2](https://github.com/requests/requests)  
 [參考資料 3](http://docs.python-requests.org/en/master/user/quickstart/)
 [參考資料 4](https://ithelp.ithome.com.tw/articles/10238573)  
 [參考資料 5](https://ithelp.ithome.com.tw/m/articles/10269928)  
 [參考資料 6](https://www.peteryangblog.com/posts/python-data-collecting-stock-price)  
-[參考資料 7](https://hackmd.io/@s02260441/HJcMcnds8)  
-[參考資料 8](https://www.statology.org/module-pandas-has-no-attribute-dataframe/)  
-[參考資料 9](https://www.youtube.com/watch?v=1PHp1prsxIM)
-
+[參考資料 7](https://www.youtube.com/watch?v=1PHp1prsxIM)  
+[參考資料 8 Fix module pandas](https://www.statology.org/module-pandas-has-no-attribute-dataframe/)  
+[參考資料 9](https://hackmd.io/@s02260441/HJcMcnds8)
+[參考資料 10](https://hackmd.io/v7m8LMfzQHu1y_dQNuXwbQ)
+[參考資料 11 mplfinance相關](https://blog.csdn.net/Shepherdppz/article/details/117575286)
+[參考資料 12 mplfinance相關](https://www.grenade.tw/blog/how-to-use-the-python-financial-analysis-visualization-module-mplfinance/)
+[參考資料 13 mplfinance相關](https://blog.csdn.net/ooobenooo/article/details/107754092)
 
 

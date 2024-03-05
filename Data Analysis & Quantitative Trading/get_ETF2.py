@@ -1,6 +1,6 @@
 """
 需要twstock 而twstock需要lxml
-
+mplfinance
 """
 import twstock
 import pandas as pd #將list轉換成 Data Frame格式用
@@ -30,9 +30,9 @@ df = pd.DataFrame(columns = name_attribute, data = target_price)
 filename = f'Data Analysis & Quantitative Trading/ETF_excel/{target_stock}.csv'
 
 #將Data Frame轉存為csv檔案
-if df.to_csv(filename):
-    print('已儲存至指定資料夾')
-else:
-     print('錯誤! 請輸入正確格式 西元 月份')
+df.to_csv(filename)
+print('已儲存至指定資料夾')
+    
+
 
 
