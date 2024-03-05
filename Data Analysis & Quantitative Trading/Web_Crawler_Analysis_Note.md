@@ -239,19 +239,64 @@ r = requests.get(url, cookies=cookies)
 r.text
 </code></pre>
 
+## python
 
-[參考資料 1](https://pypi.org/project/requests/)  
-[參考資料 2](https://github.com/requests/requests)  
-[參考資料 3](http://docs.python-requests.org/en/master/user/quickstart/)
-[參考資料 4](https://ithelp.ithome.com.tw/articles/10238573)  
-[參考資料 5](https://ithelp.ithome.com.tw/m/articles/10269928)  
-[參考資料 6](https://www.peteryangblog.com/posts/python-data-collecting-stock-price)  
-[參考資料 7](https://www.youtube.com/watch?v=1PHp1prsxIM)  
-[參考資料 8 Fix module pandas](https://www.statology.org/module-pandas-has-no-attribute-dataframe/)  
-[參考資料 9](https://hackmd.io/@s02260441/HJcMcnds8)
-[參考資料 10](https://hackmd.io/v7m8LMfzQHu1y_dQNuXwbQ)
-[參考資料 11 mplfinance相關](https://blog.csdn.net/Shepherdppz/article/details/117575286)
-[參考資料 12 mplfinance相關](https://www.grenade.tw/blog/how-to-use-the-python-financial-analysis-visualization-module-mplfinance/)
-[參考資料 13 mplfinance相關](https://blog.csdn.net/ooobenooo/article/details/107754092)
+### f-string  
+
+f-string 是 Python 3.6 加入的字串格式化功能 也是現在比較推薦的格式化方法
+操作方式為「f{變數名稱或運算式}」( 開頭可以使用 f 或 F ) 輸出結果會將變數或運算式的內容放入指定的位置
+下方的程式執行後 會將變數 a 和 b 的內容 放入 c 的字串裡
+
+<pre>
+a = 'world'
+b = 'oxxo'
+c = f'hello {a}, I am {b}'
+print(c)   # hello world, I am oxxo
+</code></pre>
+
+
+可以透過字串格式化的方式 實作補零的效果
+
+<pre>
+for i in range(1,101):
+  print(f'{i:03d}',end=' , ')
+</code></pre>
+
+輸出:  
+
+'''
+001 , 002 , 003 , 004 , 005 , 006 , 007 , 008 , 009 , 010 ,
+011 , 012 , 013 , 014 , 015 , 016 , 017 , 018 , 019 , 020 ,
+021 , 022 , 023 , 024 , 025 , 026 , 027 , 028 , 029 , 030 ,
+031 , 032 , 033 , 034 , 035 , 036 , 037 , 038 , 039 , 040 ,
+041 , 042 , 043 , 044 , 045 , 046 , 047 , 048 , 049 , 050 ,
+051 , 052 , 053 , 054 , 055 , 056 , 057 , 058 , 059 , 060 ,
+061 , 062 , 063 , 064 , 065 , 066 , 067 , 068 , 069 , 070 ,
+071 , 072 , 073 , 074 , 075 , 076 , 077 , 078 , 079 , 080 ,
+081 , 082 , 083 , 084 , 085 , 086 , 087 , 088 , 089 , 090 ,
+091 , 092 , 093 , 094 , 095 , 096 , 097 , 098 , 099 , 100 ,
+'''
+
+## 參考資料:
+
+[1. 爬蟲相關](https://pypi.org/project/requests/)  
+[2. 爬蟲相關](https://github.com/requests/requests)  
+[3. 爬蟲相關](http://docs.python-requests.org/en/master/user/quickstart/)
+[4. 爬蟲相關](https://ithelp.ithome.com.tw/articles/10238573)  
+[5. 爬蟲相關](https://ithelp.ithome.com.tw/m/articles/10269928)  
+[6. 爬蟲相關](https://www.peteryangblog.com/posts/python-data-collecting-stock-price)  
+[7. 爬蟲相關](https://www.youtube.com/watch?v=1PHp1prsxIM)  
+[8. Fix module pandas](https://www.statology.org/module-pandas-has-no-attribute-dataframe/)  
+[9.](https://hackmd.io/@s02260441/HJcMcnds8)
+[10.](https://hackmd.io/v7m8LMfzQHu1y_dQNuXwbQ)  
+[11. mplfinance相關](https://blog.csdn.net/Shepherdppz/article/details/117575286)  
+[12. mplfinance相關](https://www.grenade.tw/blog/how-to-use-the-python-financial-analysis-visualization-module-mplfinance/)  
+[13. mplfinance相關](https://blog.csdn.net/ooobenooo/article/details/107754092)  
+[14. python格式化](https://steam.oxxostudio.tw/category/python/basic/format.html)
+[15. 量化分析 mplfinance問題](https://github.com/matplotlib/mplfinance/issues/89)
+[16. 量化分析 mplfinance問題](https://cloud.tencent.com/developer/ask/sof/108763483)
+[17. 量化分析 mplfinance問題](https://stackoverflow.com/questions/67225879/how-can-i-deal-with-expect-data-index-as-datetimeindex)
+[18. 量化分析 mplfinance問題](https://aitechtogether.com/python/132185.html)
+[19. ]()
 
 
