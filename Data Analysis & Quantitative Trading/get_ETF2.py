@@ -3,24 +3,26 @@
 
 """
 import twstock
-import pandas as pd
+import pandas as pd #將list轉換成 Data Frame格式用
 
-target_stock = input('請輸入你要查詢的ETF: ')#股票代號變數
+target_stock = input('請輸入你要查詢的ETF: ')
+year= int(input('請輸入查詢起始年分: '))
+month= int(input('月分: '))
+print('Loading...')
+#target_stock = '0050'
+stock = twstock.Stock(target_stock)
+target_price = stock.fetch_from(year,month)
 
-print('loading...')
-#target_stock = '0050'  
-stock = twstock.Stock(target_stock)  #告訴twstock我們要查詢的股票
-target_price = stock.fetch_from(2020, 5)  #取用2020/05至今每天的交易資料
+# 類別有: Date, capacity, turnover, open, high, low, close, change, transaction
+#print(target_price) #印出全部資料
+
 
  #幫收集到的資料設定表頭
-name_attribute = [
-    'Date', 'Capacity', 'Turnover', 'Open', 'High', 'Low', 'Close', 'Change',
-    'Transcation'
-] 
+name_attribute = ['Date', 'Capacity', 'Turnover', 'Open', 'High', 'Low', 'Close', 'Change', 'Transcation']
 
 #將twstock抓到的清單轉成Data Frame格式的資料表
-df = pd.DataFrame(columns=name_attribute, data=target_price)
-
+df = pd.DataFrame(columns = name_attribute, data = target_price)
+#print(df) #檢查用
 
 
 #指定Data Frame轉存csv檔案的檔名與路徑
@@ -28,6 +30,9 @@ df = pd.DataFrame(columns=name_attribute, data=target_price)
 filename = f'Data Analysis & Quantitative Trading/ETF_excel/{target_stock}.csv'
 
 #將Data Frame轉存為csv檔案
-df.to_csv(filename)
+if df.to_csv(filename):
+    print('已儲存至指定資料夾')
+else:
+     print('錯誤! 請輸入正確格式 西元 月份')
 
-print('已儲存至指定資料夾')
+

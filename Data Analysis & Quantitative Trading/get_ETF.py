@@ -26,8 +26,8 @@ data = res.text
 包含標點符號
 """
 
-#for d in re.split("[=\r\n]",data):
-#   print(d)
+for d in re.split("[=\r\n]",data):
+   print(d)
     
 """
 經過split()處理後 data type是list 可以透過index[]查詢 第一筆ETF資料從7開始 因為每個資料會空格兩行
@@ -35,6 +35,6 @@ data = res.text
 """
 #s_data = re.split("[=\r\n]",data)
 s_data = re.sub(' = \r \n','\n',data)
-print(s_data)#檢查用
+#print(s_data)#檢查用
 #print(len(s_data)) #查看list大小 20436
 

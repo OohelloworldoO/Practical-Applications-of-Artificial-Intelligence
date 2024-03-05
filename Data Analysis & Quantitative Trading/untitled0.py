@@ -1,9 +1,29 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  6 04:02:24 2024
+from matplotlib import pyplot as plt
 
-@author: user
-"""
 
-name = input("please enter your name : ")
-print("hello,"+name) # 因為name是字串所以可以直接跟"hello,"字串相加
+import numpy as np
+
+
+
+
+x = np.linspace(1, 10, 20)
+
+
+print(x)
+
+
+y = 3 * x + 2
+
+
+fig = plt.figure()
+
+
+axes = fig.add_axes([0.1, 0.1, 0.9, 0.9])
+
+
+axes.plot(x, y, 'r')
+
+
+
+
+plt.show()
