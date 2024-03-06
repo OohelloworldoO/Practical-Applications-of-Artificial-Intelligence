@@ -1,57 +1,56 @@
-原本是照著老師上課用的Spyder Launch操作 但發現編譯的問題很多(像是可以輸出卻無法輸入) 加上不熟悉  
-後來所以改成用我最熟悉的vscode操作 因為我以前寫python也是用vscode 環境都已經弄好了 用markdown寫筆記也可以及時看到成效(不用git push)  
+原本是照著老師上課用的 Spyder Launch 操作 但發現編譯的問題很多(像是可以輸出卻無法輸入) 加上不熟悉  
+後來所以改成用我最熟悉的 vscode 操作 因為我以前寫 python 也是用 vscode 環境都已經弄好了 用 markdown 寫筆記也可以及時看到成效(不用 git push)
 
 ## 股票
 
-### K線
+### K 線
 
 ![註解1](./images/k線.png "k線")
-[圖片來源網址](https://tw.stock.yahoo.com/news/%E4%BB%80%E9%BA%BC%E6%98%AFk%E7%B7%9Ak%E7%B7%9A%E6%80%8E%E9%BA%BC%E7%9C%8B-102019742.html)  
+[圖片來源網址](https://tw.stock.yahoo.com/news/%E4%BB%80%E9%BA%BC%E6%98%AFk%E7%B7%9Ak%E7%B7%9A%E6%80%8E%E9%BA%BC%E7%9C%8B-102019742.html)
 
-K線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表現 其中紅色代表上漲 綠色代表下跌(話說我一直以為綠色是上漲)  
-而中間的蠟燭上下限標記開盤及收盤價格 K線的上下橫線則為當日最高與最低價格   
+K 線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表現 其中紅色代表上漲 綠色代表下跌(話說我一直以為綠色是上漲)  
+而中間的蠟燭上下限標記開盤及收盤價格 K 線的上下橫線則為當日最高與最低價格
 
 ### 均線
 
-均線紀錄了一段特定時間中股票持有成本的平均值 英文原名是Moving Average(MA)
-舉例來說，下表是某檔股票5日的收盤價格，將5日的價格加總除以5即為5日均價，以每一天為中心計算前後兩日加總的均價，就能連成一條5日價格均線了。
+均線紀錄了一段特定時間中股票持有成本的平均值 英文原名是 Moving Average(MA)
+舉例來說，下表是某檔股票 5 日的收盤價格，將 5 日的價格加總除以 5 即為 5 日均價，以每一天為中心計算前後兩日加總的均價，就能連成一條 5 日價格均線了。
 
-|     時間      |價格|
-| :---------------: | :-------------: |
-|     D-2      |52.5|
-|     D-1      |53.0|
-|      D       |59.5|
-|     D+1      |55.2|
-|     D+2      |49.5|
-|     5日均價   |53.94|
+|   時間   | 價格  |
+| :------: | :---: |
+|   D-2    | 52.5  |
+|   D-1    | 53.0  |
+|    D     | 59.5  |
+|   D+1    | 55.2  |
+|   D+2    | 49.5  |
+| 5 日均價 | 53.94 |
 
-而隨著加總平均計算的天數不同 均線代表的意涵也不同 以下是常見的均線技術分析:  
+而隨著加總平均計算的天數不同 均線代表的意涵也不同 以下是常見的均線技術分析:
 
-|      均線種類       |                    說明                    |                    分析意義                    |
-| :---------------: | :-----------------------------------------: |:-----------------------------------------: |
-|   5日均線    |                周線，極短線操作指標                 | 飆股跌破周線可能是出場時機|
-| 10日均線 |           雙周線，短線操作指標           | 強勢股跌破雙周線可能會進入短期整理 |
-|    20日均線     |                   月線，多頭操作指標                  | 跌破月線可能會進入短期空頭修正格局 |
-|     60日均線      | 季線，中期操作指標 | 跌破季線可能會進入長期空頭修正格局 |
-|     240日均線      | 年線，長期操作指標 | 跌破年線可能會進入長期空頭修正格局 |
+|  均線種類  |         說明         |              分析意義              |
+| :--------: | :------------------: | :--------------------------------: |
+|  5 日均線  | 周線，極短線操作指標 |     飆股跌破周線可能是出場時機     |
+| 10 日均線  | 雙周線，短線操作指標 | 強勢股跌破雙周線可能會進入短期整理 |
+| 20 日均線  |  月線，多頭操作指標  | 跌破月線可能會進入短期空頭修正格局 |
+| 60 日均線  |  季線，中期操作指標  | 跌破季線可能會進入長期空頭修正格局 |
+| 240 日均線 |  年線，長期操作指標  | 跌破年線可能會進入長期空頭修正格局 |
 
+### 交易量
 
-### 交易量  
+圖片下方的副圖表為每日的交易量 長條圖顏色對應當日的漲跌顯示
 
-圖片下方的副圖表為每日的交易量 長條圖顏色對應當日的漲跌顯示  
-
-## 複習一下網頁組成  
+## 複習一下網頁組成
 
 網頁的基本組成: HTML + CSS + JavaScript  
 HTML: 主要為定義網頁的內容、結構  
 CSS: 主要為設定顯示的風格 Style  
 JS: 操作、動作(?)  
 HTML 是階層式文件結構，由許多元素(Elements)組成  
-一個元素包含開始標籤、結束標籤、屬性及內容，例如:  
+一個元素包含開始標籤、結束標籤、屬性及內容，例如:
+
 <pre>
 <Tag 屬性>內容</Tag>
-</code></pre>   
-
+</code></pre>
 
 | 標籤名稱 |       用途       | 屬性名稱 |        用途         |
 | :------: | :--------------: | :------: | :-----------------: |
@@ -76,8 +75,7 @@ HTML 是階層式文件結構，由許多元素(Elements)組成
 - CONNECT
 
 在 HTTP 2 的版本中定義了八種 Method (方法)，如下所示：
-2015 年誕生了一個新的 HTTP 版本，稱為 HTTP/2。HTTP/2 解決了 HTTP/1.1 的創造者未曾預料的幾個問題。特別是，HTTP/2 比 HTTP/1.1 更快，更高效。HTTP/2 速度更快的一個表現是在載入過程中如何對內容進行優先順序排序。  
-
+2015 年誕生了一個新的 HTTP 版本，稱為 HTTP/2。HTTP/2 解決了 HTTP/1.1 的創造者未曾預料的幾個問題。特別是，HTTP/2 比 HTTP/1.1 更快，更高效。HTTP/2 速度更快的一個表現是在載入過程中如何對內容進行優先順序排序。
 
 ## requests module 用來下載網頁上的資料 透過 http 請求網頁伺服器下載指定的資料
 
@@ -241,7 +239,7 @@ r.text
 
 ## python
 
-### f-string  
+### f-string
 
 f-string 是 Python 3.6 加入的字串格式化功能 也是現在比較推薦的格式化方法
 操作方式為「f{變數名稱或運算式}」( 開頭可以使用 f 或 F ) 輸出結果會將變數或運算式的內容放入指定的位置
@@ -254,7 +252,6 @@ c = f'hello {a}, I am {b}'
 print(c)   # hello world, I am oxxo
 </code></pre>
 
-
 可以透過字串格式化的方式 實作補零的效果
 
 <pre>
@@ -262,7 +259,7 @@ for i in range(1,101):
   print(f'{i:03d}',end=' , ')
 </code></pre>
 
-輸出:  
+輸出:
 
 '''
 001 , 002 , 003 , 004 , 005 , 006 , 007 , 008 , 009 , 010 ,
@@ -286,17 +283,15 @@ for i in range(1,101):
 [5. 爬蟲相關](https://ithelp.ithome.com.tw/m/articles/10269928)  
 [6. 爬蟲相關](https://www.peteryangblog.com/posts/python-data-collecting-stock-price)  
 [7. 爬蟲相關](https://www.youtube.com/watch?v=1PHp1prsxIM)  
-[8. Fix module pandas](https://www.statology.org/module-pandas-has-no-attribute-dataframe/)   
-[9.](https://hackmd.io/@s02260441/HJcMcnds8) 
-[10.](https://hackmd.io/v7m8LMfzQHu1y_dQNuXwbQ)   
-[11. mplfinance相關](https://blog.csdn.net/Shepherdppz/article/details/117575286)    
-[12. mplfinance相關](https://www.grenade.tw/blog/how-to-use-the-python-financial-analysis-visualization-module-mplfinance/)    
-[13. mplfinance相關](https://blog.csdn.net/ooobenooo/article/details/107754092)    
-[14. python格式化](https://steam.oxxostudio.tw/category/python/basic/format.html)  
-[15. 量化分析 mplfinance問題](https://github.com/matplotlib/mplfinance/issues/89)  
-[16. 量化分析 mplfinance問題](https://cloud.tencent.com/developer/ask/sof/108763483)  
-[17. 量化分析 mplfinance問題](https://stackoverflow.com/questions/67225879/how-can-i-deal-with-expect-data-index-as-datetimeindex)  
-[18. 量化分析 mplfinance問題](https://aitechtogether.com/python/132185.html)  
+[8. Fix module pandas](https://www.statology.org/module-pandas-has-no-attribute-dataframe/)  
+[9.](https://hackmd.io/@s02260441/HJcMcnds8)
+[10.](https://hackmd.io/v7m8LMfzQHu1y_dQNuXwbQ)  
+[11. mplfinance 相關](https://blog.csdn.net/Shepherdppz/article/details/117575286)  
+[12. mplfinance 相關](https://www.grenade.tw/blog/how-to-use-the-python-financial-analysis-visualization-module-mplfinance/)  
+[13. mplfinance 相關](https://blog.csdn.net/ooobenooo/article/details/107754092)  
+[14. python 格式化](https://steam.oxxostudio.tw/category/python/basic/format.html)  
+[15. 量化分析 mplfinance 問題](https://github.com/matplotlib/mplfinance/issues/89)  
+[16. 量化分析 mplfinance 問題](https://cloud.tencent.com/developer/ask/sof/108763483)  
+[17. 量化分析 mplfinance 問題](https://stackoverflow.com/questions/67225879/how-can-i-deal-with-expect-data-index-as-datetimeindex)  
+[18. 量化分析 mplfinance 問題](https://aitechtogether.com/python/132185.html)  
 [19. twstock moduel](https://twstock.readthedocs.io/zh-tw/latest/reference/stock.html)
-
-
