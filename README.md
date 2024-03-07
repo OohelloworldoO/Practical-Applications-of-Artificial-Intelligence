@@ -1,14 +1,4 @@
-python 復健中...順便完善有關 Deep Learning & Artificial Intelligence 知識庫
-
-
-# Weka
-
-[Weka 筆記](https://github.com/OohelloworldoO/Practical-Applications-of-Artificial-Intelligence/blob/main/Weka/Note.md)
-
-| comand |    用途    |
-| :----: | :--------: |
-|   %    |    註解    |
-|   @    | table 欄位 |
+與安裝相關的部分
 
 # Tensorflow-Keras install
 
