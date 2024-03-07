@@ -1,4 +1,5 @@
-## Machine Learning = Regression + Classification + Structured Learning(create somethin with structure)  
+# Machine Learning  
+ML = Regression + Classification + Structured Learning(create somethin with structure)  
 
  * step1. Function  
 ***Model:***
