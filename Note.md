@@ -18,7 +18,7 @@ e=(y-y')^2 L is mean square error(MSE)
 如果y為機率表示的話=>Cross-entropy  
 
  * Step 3. Optimization  
-Grandient Descent
+Grandient Descent  
 ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
    - (Randomly) Pick an initial value "w1"
    -  Compute L'/w'| w=w1 , Negative=> Increase Positive=>decrease w  
