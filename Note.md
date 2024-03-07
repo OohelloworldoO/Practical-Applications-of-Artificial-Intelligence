@@ -1,5 +1,5 @@
 # Machine Learning  
-ML = Regression + Classification + Structured Learning(create somethin with structure)    
+ML = Regression + Classification + Structured Learning(create something with structure)    
 
 ## Machine Learning steps  
 
