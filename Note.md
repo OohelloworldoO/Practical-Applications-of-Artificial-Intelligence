@@ -1,12 +1,15 @@
 # Machine Learning  
-ML = Regression + Classification + Structured Learning(create somethin with structure)  
+ML = Regression + Classification + Structured Learning(create somethin with structure)    
 
- * step1. Function  
+## Machine Learning steps  
+
+ * Step 1. Function with unknown   
 ***Model:***
   ```
   y=b+wx
   ```
- * step2. Define Loss from Training data(Loss is afunction of parameters e.g. L(b,w) )
+ * Step 2. Define Loss from Training data  
+Loss is afunction of parameters e.g. L(b,w)  
 Loss: L=1/N( Σ(e) ) e為每筆資料的預設跟實際的誤差，N為總資料數  
 Loss越大代表參數越差  
 計算誤差的方式:  
@@ -14,7 +17,15 @@ e=|y-y'| L is mean absolute error(MAE)
 e=(y-y')^2 L is mean square error(MSE)  
 如果y為機率表示的話=>Cross-entropy  
 
- * step3. Optimization  
+ * Step 3. Optimization  
+Grandient Descent
+![Gradient descent](./images/Gradient%20descent.png "Gradient descent")  
+   - (Randomly) Pick an initial value "w1"
+   -  Compute L'/w'| w=w1 , Negative=> Increase Positive=>decrease w  
+   -  Update w iteratively  
+
+![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")   
+![Optimization](./images/Optimization.png "Optimization")     
 
 
 ## Cross-entropy  
