@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib
+
+# 要導入matplotlib的原因是因為mplfinance繪圖時需要調用mptplotlib模組(mplfinance是基於matplotlib開發的)
 import mplfinance as mpf 
-# 導入pandas、matplotlib、mplfinance模組，將mplfinance模組縮寫為mpf
-# 這邊要導入matplotlib的原因是因為mplfinance繪圖時需要調用mptplotlib模組 mplfinance是基於matplotlib開發的
+
 
 target_stock = input('請輸入你要查詢的ETF: ')
 
