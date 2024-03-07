@@ -4,3 +4,4 @@
 [CNN](https://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
 [What is convolution?!](https://www.youtube.com/watch?v=KuXjwB4LzSA)
 [CNN fliter](https://ithelp.ithome.com.tw/articles/10187424)
+[CNN](https://www.youtube.com/watch?v=KuXjwB4LzSA)
