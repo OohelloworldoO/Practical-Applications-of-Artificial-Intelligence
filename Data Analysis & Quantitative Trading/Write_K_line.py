@@ -23,5 +23,5 @@ my_style  = mpf.make_mpf_style(marketcolors=my_color, figcolor='(0.82, 0.83, 0.8
 #設定可變參數kwargs，並在變數中填上繪圖時會用到的設定值
 kwargs = dict(type='candle', mav=(5,20,60), volume=True, figratio=(10,8), figscale=0.75, title=target_stock, style=my_style) 
 
-mpf.plot(df,**kwargs)
 #選擇df資料表為資料來源，帶入kwargs參數，畫出目標股票的走勢圖
+mpf.plot(df,**kwargs)

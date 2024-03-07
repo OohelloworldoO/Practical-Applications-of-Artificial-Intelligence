@@ -237,7 +237,7 @@ r = requests.get(url, cookies=cookies)
 r.text
 </code></pre>
 
-## python
+## python 補充新版本內容
 
 ### f-string
 
