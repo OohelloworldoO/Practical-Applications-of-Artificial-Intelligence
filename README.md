@@ -23,6 +23,9 @@ Classical Machine Learning更依賴人類干預來學習 由我們來定義特�
 所以如果沒有Activation Function 無論構造多複雜的NN 最後的輸出都是輸入的線性組合  
 而純粹的Linear Combination是無法解決更為複雜的問題  
 所以常見的激活函數都是非線性的 使得NN可以逼近其他任何非線性函數 NN可以應用到到更多非線性模型中  
+
+[如何理解激活函數?](https://zhuanlan.zhihu.com/p/364620596) 
+[激活函數](https://ithelp.ithome.com.tw/m/articles/10276865)  
  
 ## Deep Learning  
 如果NN consists more then three layers(include in/output) 則此NN被視為Deep Neural Network  
