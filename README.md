@@ -1,6 +1,29 @@
-與安裝相關的部分
+# How are ML and DL different?
+在學習前 我想先搞懂ML、DL還有一些甚麼NN、CNN、RNN...等等之間的關係  
 
-# Tensorflow-Keras install
+Deep Learning => Neural Network => Machine Learning => AI 
+
+![Artificial Intelligence](./images/Artificial%20Intelligence.png "AI")  
+
+## Machine Learning 
+
+我們定義模型中的權重(weight) 並使用激活函數(Activation Function)來計算  
+Classical Machine Learning更依賴人類干預來學習 由我們來定義特徵的層次結構來理解資料輸入之間的差異 過程包括人工干預/人工監督 (human supervision)  
+
+ 
+## Deep Learning  
+如果NN consists more then three layers(include in/output) 則此NN被視為Deep Neural Network  
+![Deep Neural Network](./images/Deep%20Neural%20Network.png "Deep Neural Network")   
+Deep Machine Learning不一定需要標籤資料集 他可以攝取原始形式的非結構化數據 並可以自動區分各資料的一組特徵
+演算法不需要人工干預就可以發現資料分組的隱藏模式 -非監督式學習(Unsupervised Learning)  
+
+所以ML跟DL兩者之間其實是同一研究領域 兩者的主要區別在於NN的層數  
+判斷: 是否超過三層? 以及是否需要人工干預來標記數據(特徵)?  
+ 
+
+[IBM Technology: Machine Learning vs Deep Learning](https://www.youtube.com/watch?v=q6kJ71tEYqM)  
+
+# 安裝問題
 
 ## 建立 Tensorflow 的 Anaconda 虛擬環境 & Solve issuse
 
