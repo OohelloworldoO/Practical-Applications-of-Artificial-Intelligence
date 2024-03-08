@@ -1,7 +1,9 @@
-# How are ML and DL different?
-在學習前 我想先搞懂ML、DL還有一些甚麼NN、CNN、RNN...等等之間的關係  
+# What are the different between ML and DL?   
+
+釐清前對於AI我是毫無頭緒 甚至不知道從何開始學起  
+所以在學習前 我想先搞懂ML、DL還有一些甚麼NN、CNN、RNN...等等之間的關係  
 還有像是tensorflow、opencv、Bert是做甚麼用的等等...  
-  
+
 Deep Learning => Neural Network => Machine Learning => AI 
 
 ![Artificial Intelligence](./images/Artificial%20Intelligence.png "AI")  
@@ -11,6 +13,16 @@ Deep Learning => Neural Network => Machine Learning => AI
 我們定義模型中的權重(weight) 並使用激活函數(Activation Function)來計算  
 Classical Machine Learning更依賴人類干預來學習 由我們來定義特徵的層次結構來理解資料輸入之間的差異 過程包括人工干預/人工監督 (human supervision)  
 
+### What is Activation Function?  
+
+在NN中 我們會發現 在每一層的NN輸出後都會使用一個函數(Sigmoid, Tanh, ReLU...)對結果進行運算 這個函數就是激活函數  
+而Activation Function就是在幫助機器學習資料中的複雜模式  
+激活函數分為 線性(如: f(x)=x ) /非線性激活函數(如: Sigmoid, Tanh, ReLU, LReLU, PReLU, Swish)  
+
+因為NN中的每個Layer in/output都是線性求和的過程 下一層的輸出只是承接了上一層函數的線性變換  
+所以如果沒有Activation Function 無論構造多複雜的NN 最後的輸出都是輸入的線性組合  
+而純粹的Linear Combination是無法解決更為複雜的問題  
+所以常見的激活函數都是非線性的 使得NN可以逼近其他任何非線性函數 NN可以應用到到更多非線性模型中  
  
 ## Deep Learning  
 如果NN consists more then three layers(include in/output) 則此NN被視為Deep Neural Network  
@@ -21,7 +33,6 @@ Deep Machine Learning不一定需要標籤資料集 他可以攝取原始形式�
 所以ML跟DL兩者之間其實是同一研究領域 兩者的主要區別在於NN的層數  
 判斷: 是否超過三層? 以及是否需要人工干預來標記數據(特徵)?  
  
-
 [IBM Technology: Machine Learning vs Deep Learning](https://www.youtube.com/watch?v=q6kJ71tEYqM)  
 
 # 安裝問題
