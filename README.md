@@ -1,6 +1,7 @@
 # How are ML and DL different?
 在學習前 我想先搞懂ML、DL還有一些甚麼NN、CNN、RNN...等等之間的關係  
-
+還有像是tensorflow、opencv、Bert是做甚麼用的等等...  
+  
 Deep Learning => Neural Network => Machine Learning => AI 
 
 ![Artificial Intelligence](./images/Artificial%20Intelligence.png "AI")  
