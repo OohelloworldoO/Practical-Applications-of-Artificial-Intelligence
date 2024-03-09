@@ -34,10 +34,10 @@ y=b+wx
 
 cross-entropy 是用來觀測預測的機率分布與實際機率分布的誤差範圍  
 corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差越高  
-[參考資料 何謂 Cross-Entropy (交叉熵)](https://r23456999.medium.com/%E4%BD%95%E8%AC%82-cross-entropy-%E4%BA%A4%E5%8F%89%E7%86%B5-b6d4cef9189d)
+[何謂 Cross-Entropy (交叉熵)](https://r23456999.medium.com/%E4%BD%95%E8%AC%82-cross-entropy-%E4%BA%A4%E5%8F%89%E7%86%B5-b6d4cef9189d)
 
 [Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
+[Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)  
+[\*Args and \*\*Kwargs in Python](https://www.youtube.com/watch?v=4jBJhCaNrWU&t=19s)  
 [Machine Learning 3 小時 實作](https://www.youtube.com/watch?v=wm9yR1VspPs)  
-[Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)
-[\*Args and \*\*Kwargs in Python](https://www.youtube.com/watch?v=4jBJhCaNrWU&t=19s)
 [理解 numpy 中的 meshgrid()方法](https://wangyeming.github.io/2018/11/12/numpy-meshgrid/)
