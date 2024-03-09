@@ -40,8 +40,10 @@ cross-entropy 是用來觀測預測的機率分布與實際機率分布的誤差
 corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差越高  
 [何謂 Cross-Entropy (交叉熵)](https://r23456999.medium.com/%E4%BD%95%E8%AC%82-cross-entropy-%E4%BA%A4%E5%8F%89%E7%86%B5-b6d4cef9189d)
 
-# 要整理 Activation Function
+## Neuron
 
+![Neuron-Neural Network](../images/Neuron-Neural%20Network.png "Neuron-Neural Network")
+要整理 Neuron:
 https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%BF%80%E5%8B%B5%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9
 
 [Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
