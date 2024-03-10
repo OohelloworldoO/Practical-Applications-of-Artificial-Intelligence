@@ -46,8 +46,14 @@ corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差
 要整理 Neuron:
 https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%BF%80%E5%8B%B5%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9
 
+# 學習順序:
+
 [Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
 [Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)  
-[\*Args and \*\*Kwargs in Python](https://www.youtube.com/watch?v=4jBJhCaNrWU&t=19s)  
-[Machine Learning 3 小時 實作](https://www.youtube.com/watch?v=wm9yR1VspPs)  
+[Machine Learning 3 小時 實作](https://www.youtube.com/watch?v=wm9yR1VspPs)
+
+# 參考資料:
+
+[\*Args and \*\*Kwargs in Python](https://www.youtube.com/watch?v=4jBJhCaNrWU&t=19s)
+
 [理解 numpy 中的 meshgrid()方法](https://wangyeming.github.io/2018/11/12/numpy-meshgrid/)
