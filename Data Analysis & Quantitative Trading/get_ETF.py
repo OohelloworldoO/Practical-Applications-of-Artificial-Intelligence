@@ -34,7 +34,7 @@ for d in re.split("[=\r\n]",data):
 那split無法達到我需要的效果 因為這樣太浪費空間
 """
 #s_data = re.split("[=\r\n]",data)
-s_data = re.sub(' = \r \n','\n',data)
+s_data = re.sub(' = \r \n , \n',data)
 #print(s_data)#檢查用
 #print(len(s_data)) #查看list大小 20436
 
