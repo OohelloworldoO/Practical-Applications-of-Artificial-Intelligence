@@ -11,3 +11,6 @@
 mnist
 
 參考:https://ithelp.ithome.com.tw/articles/10186473
+
+weka diabibi 至少三種classify 至少三種attributeselecttion去找出最佳的
+meta=>atributeslector
