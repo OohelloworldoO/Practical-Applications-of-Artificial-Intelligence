@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib
+import matplotlib.pyplot as plt
 
 # 要導入matplotlib的原因是因為mplfinance繪圖時需要調用mptplotlib模組(mplfinance是基於matplotlib開發的)
 import mplfinance as mpf 
@@ -17,6 +17,8 @@ df.rename(columns={'Turnover':'Volume'}, inplace = True)
 
 #針對線圖的外觀微調 將上漲設定為紅色 下跌設定為綠色
 my_color = mpf.make_marketcolors(up='r', down='g', inherit=True, edge='inherit', wick='inherit', volume='inherit')
+
+
 #接著把自訂的marketcolors放到自訂的style中，而這個改動是基於預設的yahoo外觀
 my_style  = mpf.make_mpf_style(marketcolors=my_color, figcolor='(0.82, 0.83, 0.85)', gridcolor='(0.82, 0.83, 0.85)')
 

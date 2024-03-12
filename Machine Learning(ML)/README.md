@@ -25,14 +25,14 @@ Loss is afunction of parameters e.g. L(b,w)
 ### Step 3. Optimization
 
 Grandient Descent  
- ![Gradient descent](../images/Gradient%20descent.png "Gradient descent")
+ ![Gradient descent](./images/Gradient%20descent.png "Gradient descent")
 
 - (Randomly) Pick an initial value "w1"
 - Compute L'/w'| w=w1 , Negative=> Increase Positive=>decrease w
 - Update w iteratively
 
 ![Global minima & Local minima](../images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
-![Optimization](../images/Optimization.png "Optimization")
+![Optimization](./images/Optimization.png "Optimization")
 
 ## Cross-entropy
 
@@ -42,7 +42,7 @@ corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差
 
 ## Neuron
 
-![Neuron-Neural Network](../images/Neuron-Neural%20Network.png "Neuron-Neural Network")
+![Neuron-Neural Network](./images/Neuron-Neural%20Network.png "Neuron-Neural Network")
 要整理 Neuron:
 https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%BF%80%E5%8B%B5%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9
 

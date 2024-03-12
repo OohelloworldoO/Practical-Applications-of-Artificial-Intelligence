@@ -19,7 +19,7 @@ def compute_cost(x, y, w, b):
 
 
 """
-#我們固定b的值=0 w=-100~100 觀測cost會怎樣
+#固定b的值=0 w=-100~100 觀測cost
 costs = []
 for w in range(-100, 101):
   cost = compute_cost(x, y, w, 0)
