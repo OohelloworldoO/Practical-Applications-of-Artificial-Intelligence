@@ -6,7 +6,7 @@
 
 Deep Learning => Neural Network => Machine Learning => AI
 
-![Artificial Intelligence](./images/Artificial%20Intelligence.png "AI")
+![Artificial Intelligence](<./Machine%20Learning(ML)/images/Artificial%20Intelligence.png> "AI")
 
 ## Machine Learning
 
