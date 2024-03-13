@@ -1,9 +1,9 @@
 原本是照著老師上課用的 Spyder Launch 操作 但發現編譯的問題很多(像是可以輸出卻無法輸入) 加上不熟悉  
 後來所以改成用我最熟悉的 vscode 操作 因為我以前寫 python 也是用 vscode 環境都已經弄好了 用 markdown 寫筆記也可以及時看到成效(不用 git push)
 
-## 股票
+# 股票
 
-### K 線
+## K 線
 
 ![註解1](./images/k線.png "k線")
 [圖片來源網址](https://tw.stock.yahoo.com/news/%E4%BB%80%E9%BA%BC%E6%98%AFk%E7%B7%9Ak%E7%B7%9A%E6%80%8E%E9%BA%BC%E7%9C%8B-102019742.html)
@@ -11,7 +11,7 @@
 K 線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表現 其中紅色代表上漲 綠色代表下跌(話說我一直以為綠色是上漲)  
 而中間的蠟燭上下限標記開盤及收盤價格 K 線的上下橫線則為當日最高與最低價格
 
-### 均線
+## 均線
 
 均線紀錄了一段特定時間中股票持有成本的平均值 英文原名是 Moving Average(MA)
 舉例來說，下表是某檔股票 5 日的收盤價格，將 5 日的價格加總除以 5 即為 5 日均價，以每一天為中心計算前後兩日加總的均價，就能連成一條 5 日價格均線了。
@@ -35,11 +35,11 @@ K 線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表
 | 60 日均線  |  季線，中期操作指標  | 跌破季線可能會進入長期空頭修正格局 |
 | 240 日均線 |  年線，長期操作指標  | 跌破年線可能會進入長期空頭修正格局 |
 
-### 交易量
+## 交易量
 
 圖片下方的副圖表為每日的交易量 長條圖顏色對應當日的漲跌顯示
 
-## 複習一下網頁組成
+# 複習一下網頁組成
 
 網頁的基本組成: HTML + CSS + JavaScript  
 HTML: 主要為定義網頁的內容、結構  
@@ -237,9 +237,9 @@ r = requests.get(url, cookies=cookies)
 r.text
 </code></pre>
 
-## python 補充新版本內容
+# python 補充新版本內容
 
-### f-string
+## f-string
 
 f-string 是 Python 3.6 加入的字串格式化功能 也是現在比較推薦的格式化方法
 操作方式為「f{變數名稱或運算式}」( 開頭可以使用 f 或 F ) 輸出結果會將變數或運算式的內容放入指定的位置
@@ -274,7 +274,7 @@ for i in range(1,101):
 091 , 092 , 093 , 094 , 095 , 096 , 097 , 098 , 099 , 100 ,
 '''
 
-## 參考資料:
+# 參考資料:
 
 [1. 爬蟲相關](https://pypi.org/project/requests/)  
 [2. 爬蟲相關](https://github.com/requests/requests)  
@@ -294,4 +294,5 @@ for i in range(1,101):
 [16. 量化分析 mplfinance 問題](https://cloud.tencent.com/developer/ask/sof/108763483)  
 [17. 量化分析 mplfinance 問題](https://stackoverflow.com/questions/67225879/how-can-i-deal-with-expect-data-index-as-datetimeindex)  
 [18. 量化分析 mplfinance 問題](https://aitechtogether.com/python/132185.html)  
-[19. twstock moduel](https://twstock.readthedocs.io/zh-tw/latest/reference/stock.html)
+[19. twstock moduel](https://twstock.readthedocs.io/zh-tw/latest/reference/stock.html)  
+[20. 資料分析 & 機器學習](https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC2-2%E8%AC%9B-%E5%A6%82%E4%BD%95%E7%8D%B2%E5%8F%96%E8%B3%87%E6%96%99-google-map-api-beb7c88dc4e3)
