@@ -31,7 +31,7 @@ Grandient Descent
 - Compute L'/w'| w=w1 , Negative=> Increase Positive=>decrease w
 - Update w iteratively
 
-![Global minima & Local minima](../images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
+![Global minima & Local minima](./images/Global%20minima%20&%20Local%20minima.png "Global minima & Local minima")  
 ![Optimization](./images/Optimization.png "Optimization")
 
 ## Cross-entropy
@@ -48,12 +48,12 @@ https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF
 
 # 學習順序:
 
-[1. Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)  
-[2. Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
+[1. Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
+[2.. Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)  
 [3. Machine Learning 3 小時 實作](https://www.youtube.com/watch?v=wm9yR1VspPs)  
 [4. Applied Deep Learning(ADL) 2022 陳縕儂教授](https://www.youtube.com/watch?v=wm9yR1VspPs)
 
 # 其餘參考資料:
 
-[\*Args and \*\*Kwargs in Python](https://www.youtube.com/watch?v=4jBJhCaNrWU&t=19s)
+[\*Args and \*\*Kwargs in Python](https://www.youtube.com/watch?v=4jBJhCaNrWU&t=19s)  
 [理解 numpy 中的 meshgrid()方法](https://wangyeming.github.io/2018/11/12/numpy-meshgrid/)
