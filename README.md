@@ -30,7 +30,7 @@ Classical Machine Learning 更依賴人類干預來學習 由我們來定義特�
 ## Deep Learning
 
 如果 NN consists more then three layers(include in/output) 則此 NN 被視為 Deep Neural Network  
-![Deep Neural Network](./images/Deep%20Neural%20Network.png "Deep Neural Network")  
+![Deep Neural Network](<./Machine%20Learning(ML)/images/Deep%20Neural%20Network.png> "Deep Neural Network")  
 Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式的非結構化數據 並可以自動區分各資料的一組特徵
 演算法不需要人工干預就可以發現資料分組的隱藏模式 -非監督式學習(Unsupervised Learning)
 
