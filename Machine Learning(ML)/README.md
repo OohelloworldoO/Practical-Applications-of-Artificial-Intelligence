@@ -47,6 +47,8 @@ corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差
 ""1!2 #
 https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%BF%80%E5%8B%B5%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9
 
+## model bias and optimization issue
+
 # 學習順序:
 
 [1. Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
