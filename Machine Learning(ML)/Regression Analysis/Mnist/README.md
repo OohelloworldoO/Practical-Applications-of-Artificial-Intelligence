@@ -1,4 +1,4 @@
-## about matplotlib structure
+## About matplotlib structure
 
 ![matplotlib structure](./images/matplotlib%20structure.png "matplotlib structure")  
 (來源: https://matplotlib.org/1.5.1/faq/usage_faq.html#parts-of-a-figure)
@@ -21,4 +21,7 @@ fig = plt.figure()
 ![matplotlib](./images/matplotlib.png "matplotlib")  
 (來源: https://matplotlib.org/stable/users/explain/quick_start.html)
 
-## What are the different between plt and ax?
+### What are the different between plt and ax?
+
+- plt.figure():這是 matplotlib 所提供的一個 api 可以快速地透過 plt.來畫圖 但如果想要更細緻 也就是控制到更細的部分來畫圖 就要使用第二種方式
+- fig,ax=plt.subplots():透過指定 figure 和 axes 來進行畫圖 對 axes 進行單獨更細緻的操作
