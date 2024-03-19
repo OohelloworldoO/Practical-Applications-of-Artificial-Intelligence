@@ -25,3 +25,71 @@ fig = plt.figure()
 
 - plt.figure():這是 matplotlib 所提供的一個 api 可以快速地透過 plt.來畫圖 但如果想要更細緻 也就是控制到更細的部分來畫圖 就要使用第二種方式
 - fig,ax=plt.subplots():透過指定 figure 和 axes 來進行畫圖 對 axes 進行單獨更細緻的操作
+
+#### step 1 導入套件和創建數據
+
+```
+import matplotlib.pyplot as plt
+​
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+y1 = [66, 28, 32, 58, 18, 2, 99, 77, 66, 58]
+y2 = [58,2,8,10,66,32,28,58,66,66]
+```
+
+#### step 2 創建畫布
+
+```
+fig, ax = plt.subplots(figsize = (10, 10))
+```
+
+#### step 3 畫圖
+
+```
+ax.plot(x, y1)
+ax.plot(x, y2)
+```
+
+#### step 4 設定標題
+
+```
+## 標題
+ax.set_title('Method 2')
+ax.set_xlabel('Label X', fontsize = 'x-large', fontfamily = 'sans-serif', color = 'white', fontstyle = 'italic')
+ax.set_ylabel('Label Y', fontsize = 10, fontfamily = 'sans-serif', color = 'blue', fontstyle = 'oblique')
+```
+
+#### step 5 設定 x 軸和 y 軸屬性
+
+```
+## x y軸的屬性設定
+## aspect : {'auto', 'equal'} or num
+ax.set_aspect('auto')
+## 於軸上顯示較小的刻度
+ax.minorticks_on()
+## 設定x軸的範圍
+ax.set_xlim(0, 8)
+## 設定網格
+## which : {'major', 'minor', 'both'}
+ax.grid(which = 'major', axis = 'both')
+```
+
+#### Step 6 設定坐標軸 tick 和更多細節
+
+```
+## 設定座標軸tick和更多細節
+​
+## 設定x軸字體(旋轉、大小、顏色)
+ax.xaxis.set_tick_params(rotation = 50, labelsize = 20, colors = 'w')
+## 取得x軸範圍
+start, end = ax.get_xlim()
+## 設定x軸刻度以0.5為單位
+ax.xaxis.set_ticks(np.arange(start, end, 0.5))
+## 將y軸刻度顯示在右邊
+ax.yaxis.tick_right()
+```
+
+# 參考資料:
+
+[你真的知道 plt / ax / fig 是什麼嗎?](https://chwang12341.medium.com/%E7%A8%8B%E5%BC%8F%E8%A7%80%E5%BF%B5-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%9C%83%E4%BD%BF%E7%94%A8plt%E7%95%AB%E5%9C%96-%E4%BD%86%E6%98%AF%E4%BD%A0%E7%9C%9F%E7%9A%84%E7%9F%A5%E9%81%93plt-ax-fig%E6%98%AF%E4%BB%80%E9%BA%BC%E5%97%8E-%E6%80%8E%E9%BA%BC%E7%94%A8-6f0bc6404f8f)  
+[matplotlib](https://matplotlib.org/stable/users/explain/quick_start.html)  
+[資料分析 & 機器學習](https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC2-2%E8%AC%9B-%E5%A6%82%E4%BD%95%E7%8D%B2%E5%8F%96%E8%B3%87%E6%96%99-google-map-api-beb7c88dc4e3)
