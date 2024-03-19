@@ -43,7 +43,8 @@ corss-entropy 越高，代表內涵的資訊量越大，不確定越多，誤差
 ## Neuron
 
 ![Neuron-Neural Network](./images/Neuron-Neural%20Network.png "Neuron-Neural Network")
-要整理 Neuron:
+記得要整理 Neuron: wefuhweiufhewpifuewhileuhfweuifhweifuwehpf654
+""1!2 #
 https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%BF%80%E5%8B%B5%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9
 
 # 學習順序:
