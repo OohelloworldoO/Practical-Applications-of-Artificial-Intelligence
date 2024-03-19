@@ -5,7 +5,7 @@ import numpy as np #Numpy是python的語言擴充程式庫 支援維度陣列 & 
 from keras import utils # 匯入keras.utils 因為後續要將label標籤轉換為One hot encoding
 np.random.seed(10) # 設定seed可以讓每次需要隨機產生的資料 都有相同的output
 
-from keras.datasets import mnist # download & read Mnist資料，需要先import mnist module
+from keras.datasets import mnist # download & read Mnist資料，需要先import mnist module 存放在C://user/username/.keras
 
 (x_train_image, y_train_label),(x_test_image, y_test_label)=mnist.load_data()
 
