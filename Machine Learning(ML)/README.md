@@ -49,8 +49,17 @@ https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF
 
 ## Model bias and optimization issue
 
-How do you identity overfitting?  
+### How do you identity overfitting?
+
 ![general guide](./images/General%20guide.png "general guide")
+
+### How do you restrict access to a course in modules?
+
+- Less parameters sharing parameters
+- Less features
+- Early stopping
+- Regularization
+- Dropout
 
 # 學習順序:
 
