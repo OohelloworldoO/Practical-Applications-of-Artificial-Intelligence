@@ -79,6 +79,12 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 | Life-Long Learning |  [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
 |   Meta Learning    |  [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
 
+# Final Project
+
+|   Topic    |                                 Link                                  | Link |
+| :--------: | :-------------------------------------------------------------------: | ---- |
+| 巴拉拉魔法 | [Final Project](<./Machine%20Learning(ML)/Homework/Regression.ipynb>) | Link |
+
 # 安裝問題
 
 ## 建立 Tensorflow 的 Anaconda 虛擬環境 & Solve issuse
