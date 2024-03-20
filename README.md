@@ -39,6 +39,46 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 [IBM Technology: Machine Learning vs Deep Learning](https://www.youtube.com/watch?v=q6kJ71tEYqM)
 
+## Machine Learning HW
+
+|       Topic        |                             Link                             |
+| :----------------: | :----------------------------------------------------------: |
+|     Regression     |   [Hw1](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Classification   | [Hw2](<./Machine%20Learning(ML)/Homework/Classification.py>) |
+|        CNN         |   [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Self-Attention   |   [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|    Transformer     |   [Hw5](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|        GAN         |   [Hw6](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|        BERT        |   [Hw7](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+| Anomaly Detection  |   [Hw8](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Explainable AI   |   [Hw9](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|       Attack       |  [Hw10](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|     Adaptation     |  [Hw11](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|         RL         |  [Hw12](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|    Compression     |  [Hw13](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+| Life-Long Learning |  [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Meta Learning    |  [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+
+## Applied Deep Learning HW
+
+|       Topic        |                             Link                             |
+| :----------------: | :----------------------------------------------------------: |
+|     Regression     |   [Hw1](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Classification   | [Hw2](<./Machine%20Learning(ML)/Homework/Classification.py>) |
+|        CNN         |   [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Self-Attention   |   [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|    Transformer     |   [Hw5](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|        GAN         |   [Hw6](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|        BERT        |   [Hw7](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+| Anomaly Detection  |   [Hw8](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Explainable AI   |   [Hw9](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|       Attack       |  [Hw10](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|     Adaptation     |  [Hw11](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|         RL         |  [Hw12](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|    Compression     |  [Hw13](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+| Life-Long Learning |  [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+|   Meta Learning    |  [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)   |
+
 # 安裝問題
 
 ## 建立 Tensorflow 的 Anaconda 虛擬環境 & Solve issuse

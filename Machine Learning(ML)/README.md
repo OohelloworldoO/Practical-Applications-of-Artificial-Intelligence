@@ -61,12 +61,12 @@ https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF
 - Regularization
 - Dropout
 
-# 學習順序:
+# Learning source:
 
 [1. Machine Learning 2021 李弘毅教授](https://www.youtube.com/@HungyiLeeNTU)  
-[2.. Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)  
+[2. Machine Learning Implementation](https://www.tutorialspoint.com/machine_learning/machine_learning_implementing.htm)  
 [3. Machine Learning 3 小時 實作](https://www.youtube.com/watch?v=wm9yR1VspPs)  
-[4. Applied Deep Learning(ADL) 2022 陳縕儂教授](https://www.youtube.com/watch?v=wm9yR1VspPs)
+[4. Machine Learning 2021 spring](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php)
 
 # 參考資料:
 
