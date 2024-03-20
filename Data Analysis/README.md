@@ -5,8 +5,8 @@
 
 ## K 線
 
-![註解1](./images/k線.png "k線")
-[圖片來源網址](https://tw.stock.yahoo.com/news/%E4%BB%80%E9%BA%BC%E6%98%AFk%E7%B7%9Ak%E7%B7%9A%E6%80%8E%E9%BA%BC%E7%9C%8B-102019742.html)
+![註解1](./images/k線.png "k線")  
+圖片來源: https://tw.stock.yahoo.com/news/%E4%BB%80%E9%BA%BC%E6%98%AFk%E7%B7%9Ak%E7%B7%9A%E6%80%8E%E9%BA%BC%E7%9C%8B-102019742.html
 
 K 線又稱作蠟燭線，一根蠟燭表示一天自開盤到收盤的價格表現 其中紅色代表上漲 綠色代表下跌(話說我一直以為綠色是上漲)  
 而中間的蠟燭上下限標記開盤及收盤價格 K 線的上下橫線則為當日最高與最低價格
