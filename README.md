@@ -41,7 +41,7 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 ## Machine Learning Project
 
-|       Topic        |                                                                 Link                                                                 |                      platform                       |
+|                    |                                                                Topic                                                                 |                      platform                       |
 | :----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
 |     Regression     |               [COVID-19 Cases Prediction](<./Machine%20Learning(ML)/Homework/HW1/COVID-19%20Cases%20Prediction.ipynb>)               | [Kaggle](https://www.kaggle.com/c/ml2021spring-hw1) |
 |   Classification   | [TIMIT framewise phoneme classification](<./Machine%20Learning(ML)/Homework/HW2/TIMIT%20framewise%20phoneme%20classification.ipynb>) | [Kaggle](https://www.kaggle.com/c/ml2021spring-hw2) |
