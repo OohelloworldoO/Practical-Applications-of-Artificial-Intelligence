@@ -1,4 +1,7 @@
-# 學習資源:
+# Reference:
+
+[解決本地端 python](https://saturncloud.io/blog/how-to-fix-modulenotfounderror-no-module-named-pandas/)  
+[解決 jupyther notebook](https://saturncloud.io/blog/jupyter-notebook-no-module-named-pandas/):
 
 [參考 這門課程的課後作業以及報告](https://github.com/pha123661/NTU-2022Fall-ADL)  
 [Applied Deep Learning(ADL) 2022 陳縕儂教授](https://www.youtube.com/watch?v=wm9yR1VspPs)

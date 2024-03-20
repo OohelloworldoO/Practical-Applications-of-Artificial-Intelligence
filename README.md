@@ -61,23 +61,23 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 ## Applied Deep Learning Project
 
-|       Topic        |                             Link                             | Link |
-| :----------------: | :----------------------------------------------------------: | ---- |
-|     Regression     | [Hw1](<./Machine%20Learning(ML)/Homework/Regression.ipynb>)  | Link |
-|   Classification   | [Hw2](<./Machine%20Learning(ML)/Homework/Classification.py>) | Link |
-|        CNN         |   [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|   Self-Attention   |   [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|    Transformer     |   [Hw5](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|        GAN         |   [Hw6](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|        BERT        |   [Hw7](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-| Anomaly Detection  |   [Hw8](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|   Explainable AI   |   [Hw9](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|       Attack       |  [Hw10](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|     Adaptation     |  [Hw11](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|         RL         |  [Hw12](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|    Compression     |  [Hw13](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-| Life-Long Learning |  [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
-|   Meta Learning    |  [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
+|       Topic        |                                       Link                                        | Link |
+| :----------------: | :-------------------------------------------------------------------------------: | ---- |
+|     Regression     | [COVID-19 Cases Prediction](<./Machine%20Learning(ML)/Homework/Regression.ipynb>) | Link |
+|   Classification   |           [Hw2](<./Machine%20Learning(ML)/Homework/Classification.py>)            | Link |
+|        CNN         |             [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|   Self-Attention   |             [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|    Transformer     |             [Hw5](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|        GAN         |             [Hw6](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|        BERT        |             [Hw7](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+| Anomaly Detection  |             [Hw8](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|   Explainable AI   |             [Hw9](<./Machine%20Learning(ML)/Homework/Regression.py>)              | Link |
+|       Attack       |             [Hw10](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
+|     Adaptation     |             [Hw11](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
+|         RL         |             [Hw12](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
+|    Compression     |             [Hw13](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
+| Life-Long Learning |             [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
+|   Meta Learning    |             [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
 
 # Final Project
 
@@ -202,10 +202,6 @@ pip install pyarrow
 conda install pandas
 </code></pre>
 
-參考網址:  
-[解決本地端 python](https://saturncloud.io/blog/how-to-fix-modulenotfounderror-no-module-named-pandas/)  
-[解決 jupyther notebook](https://saturncloud.io/blog/jupyter-notebook-no-module-named-pandas/)
-
 第一個下載 Mnist 資料、讀取+查看沒問題了，終於可以開始學東西了 TAT
 
 ![註解6](/images/5.png "6")  
@@ -216,3 +212,8 @@ conda install pandas
 <pre>
 conda install matplotlib
 </code></pre>
+
+### Reference:
+
+[解決本地端 python](https://saturncloud.io/blog/how-to-fix-modulenotfounderror-no-module-named-pandas/)  
+[解決 jupyther notebook](https://saturncloud.io/blog/jupyter-notebook-no-module-named-pandas/)
