@@ -63,7 +63,7 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 |       Topic        |                             Link                             | Link |
 | :----------------: | :----------------------------------------------------------: | ---- |
-|     Regression     |   [Hw1](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
+|     Regression     | [Hw1](<./Machine%20Learning(ML)/Homework/Regression.ipynb>)  | Link |
 |   Classification   | [Hw2](<./Machine%20Learning(ML)/Homework/Classification.py>) | Link |
 |        CNN         |   [Hw3](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
 |   Self-Attention   |   [Hw4](<./Machine%20Learning(ML)/Homework/Regression.py>)   | Link |
