@@ -49,7 +49,8 @@ https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF
 
 ## Model bias and optimization issue
 
-overfitting?
+How do you identity overfitting?  
+![general guide](./images/General%20guide.png "general guide")
 
 # 學習順序:
 
