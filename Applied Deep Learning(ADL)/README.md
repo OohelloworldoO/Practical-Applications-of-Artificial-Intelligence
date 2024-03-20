@@ -8,6 +8,7 @@
 
 ## Tensor
 
-![Tensor](../images/Tensor.png "Tensor")  
+[pytorch](<../Machine%20Learning(ML)/Homework/HW1/README.md>)  
+![Tensor](<../Machine%20Learning(ML)/images/Tensor.png> "Tensor")  
 Tensor 在數學上可以理解多維數組(Multidimensional Array) 為儲存資料的容器  
 張量的階就是軸的數量
