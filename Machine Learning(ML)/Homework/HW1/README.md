@@ -65,4 +65,5 @@ A bool that, if True, causes cuDNN to benchmark multiple convolution algorithms 
 
 [PyTorch 入門](https://medium.com/pyladies-taiwan/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%B0%E6%89%8B%E6%9D%91-pytorch%E5%85%A5%E9%96%80-511df3c1c025)
 [torch.backends.cudnn.benchmark 的用法](https://blog.csdn.net/leviopku/article/details/121661020)  
-[Pytorch](https://pytorch.org/docs/stable/backends.html)
+[Pytorch](https://pytorch.org/docs/stable/backends.html)  
+[Python_Magic Methods: getitem, setitem, len 的說明與範例](https://blog.csdn.net/shyhkaelo/article/details/128681200?spm=1001.2014.3001.5502)

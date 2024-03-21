@@ -237,7 +237,7 @@ r = requests.get(url, cookies=cookies)
 r.text
 </code></pre>
 
-# python 補充新版本內容
+# Python
 
 ## f-string
 
@@ -274,6 +274,63 @@ for i in range(1,101):
 091 , 092 , 093 , 094 , 095 , 096 , 097 , 098 , 099 , 100 ,
 ```
 
+## Python mathods
+
+- `__init__`
+
+```
+class abc:
+    def __init__(self,var1=0,var2=0): #可以先給參數預設值
+        self.var_1=var1
+        self.var_2=var2
+
+    def addition(self):
+        K=self.var_1+self.var_2
+        return K
+    def disply(self):
+        print(self.addition())
+        return
+
+k=abc(10,12)
+k.disply() #output:22
+```
+
+- `__getitem__`
+
+```
+class test:
+  def __init__(self):
+    self.change={'fuck':'This is a test'}
+
+  def __getitem__(self, item):
+    return self.change[item]
+
+a=test()
+print(a['fuck']) #outpu:This is a test
+
+class test2:
+  def __init__(self,a_list):
+    self.aa_name = a_list
+    self.other = 'mother fucker'
+
+  def __getitem__(self, item):
+    return self.aa_name[item]
+
+aa=test2(["a","b","c"])
+for a in aa:
+  print(a) # output:a
+                    b
+                    c
+```
+
+- `__len__`
+
+```
+my_string = "Hello World!"
+length = len(my_string)
+print(length) #output:12
+```
+
 # Project
 
 |     Topic     |            Link             |
@@ -301,4 +358,5 @@ for i in range(1,101):
 [17. 量化分析 mplfinance 問題](https://stackoverflow.com/questions/67225879/how-can-i-deal-with-expect-data-index-as-datetimeindex)  
 [18. 量化分析 mplfinance 問題](https://aitechtogether.com/python/132185.html)  
 [19. twstock moduel](https://twstock.readthedocs.io/zh-tw/latest/reference/stock.html)  
-[20. 資料分析 & 機器學習](https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC2-2%E8%AC%9B-%E5%A6%82%E4%BD%95%E7%8D%B2%E5%8F%96%E8%B3%87%E6%96%99-google-map-api-beb7c88dc4e3)
+[20. 資料分析 & 機器學習](https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC2-2%E8%AC%9B-%E5%A6%82%E4%BD%95%E7%8D%B2%E5%8F%96%E8%B3%87%E6%96%99-google-map-api-beb7c88dc4e3)  
+[21. python methods](https://ithelp.ithome.com.tw/articles/10221328)
