@@ -1,4 +1,4 @@
-# pytorch
+# Pytorch
 
 torch nn、utils.data、utils.tensorboard
 torch.backends.cudnn
@@ -41,6 +41,28 @@ torch.optim 裡陳列了很多 optimizer 常用的例如 SGD、Adam、RMSprop �
 - `forward`  
   定義 model 接收 input 時 data 要怎麼傳遞、經過哪些 activation function 等等
 
+##　 backends
+
+`torch.backends`:
+
+```
+cuda
+cudnn
+mkl
+mkldnn
+openmp
+```
+
+- torch.backends.cudnn.benchmark 主要針對 pytorch 的 cudnn 底層庫進行設置 bool: True/False
+
+```
+A bool that, if True, causes cuDNN to benchmark multiple convolution algorithms and select the fastest.
+```
+
+-
+
 # Reference
 
 [PyTorch 入門](https://medium.com/pyladies-taiwan/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%B0%E6%89%8B%E6%9D%91-pytorch%E5%85%A5%E9%96%80-511df3c1c025)
+[torch.backends.cudnn.benchmark 的用法](https://blog.csdn.net/leviopku/article/details/121661020)  
+[Pytorch](https://pytorch.org/docs/stable/backends.html)
