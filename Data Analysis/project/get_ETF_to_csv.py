@@ -28,7 +28,7 @@ filename = f'Data Analysis/ETF_excel/{target_stock}.csv'
 
 # 將Data Frame轉存為csv檔案
 df.to_csv(filename)
-
+print("已存入指定資料夾")
 
 
 
