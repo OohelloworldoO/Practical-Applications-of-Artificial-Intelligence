@@ -21,7 +21,6 @@ name_attribute = ['Date', 'Capacity', 'Turnover', 'Open', 'High', 'Low', 'Close'
 df = pd.DataFrame(columns = name_attribute, data = target_price)
 #print(df) #檢查用
 
-
 # 指定Data Frame轉存csv檔案的檔名與路徑
 #df.to_csv(target_stock+'.csv') 
 filename = f'Data Analysis/ETF_excel/{target_stock}.csv'
@@ -33,7 +32,13 @@ def Data_Frm(name):
     return print("已存入指定資料夾")
 
 data_Save = Data_Frm(filename)
-    
+
+"""
+#這樣也可以獲取指定股票 指定年份~今日的所有訊息 不過我認為使用twstock可以幫我省略很多我不需要的資訊
+import yfinance as yf
+df=yf.Ticker("006208.TW").history(period="3y")
+df=df.filter("Close") # 過濾需要的Topic
+"""
 
 
 

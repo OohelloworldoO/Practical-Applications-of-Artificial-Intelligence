@@ -8,7 +8,7 @@ import mplfinance as mpf
 target_stock = input('請輸入你要查詢的ETF: ')
 
 #讀取目標股票csv檔的位置
-filename =f'Data Analysis & Quantitative Trading/ETF_excel/{target_stock}.csv'
+filename =f'Data Analysis/ETF_excel/{target_stock}.csv'
 df = pd.read_csv(filename, parse_dates=True, index_col=1) 
 
 #這裡針對資料表做一下修正，因為交易量(Turnover)在mplfinance中須被改為Volume才能被認出來
