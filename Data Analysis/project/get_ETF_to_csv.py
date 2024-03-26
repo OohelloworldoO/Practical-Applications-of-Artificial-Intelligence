@@ -33,12 +33,6 @@ def Data_Frm(name):
 
 data_Save = Data_Frm(filename)
 
-"""
-#這樣也可以獲取指定股票 指定年份~今日的所有訊息 不過我認為使用twstock可以幫我省略很多我不需要的資訊
-import yfinance as yf
-df=yf.Ticker("006208.TW").history(period="3y")
-df=df.filter("Close") # 過濾需要的Topic
-"""
 
 
 
