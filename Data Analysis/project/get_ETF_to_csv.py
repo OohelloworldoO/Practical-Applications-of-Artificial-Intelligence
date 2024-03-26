@@ -26,8 +26,6 @@ df = pd.DataFrame(columns = name_attribute, data = target_price)
 #df.to_csv(target_stock+'.csv') 
 filename = f'Data Analysis/ETF_excel/{target_stock}.csv'
 
-
-
 # 將Data Frame轉存為csv檔案
 df.to_csv(filename)
 
