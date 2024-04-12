@@ -44,3 +44,45 @@ model = models.Model(inputs=input_layer, outputs=output_layer)
 - 最後透過 Dense Layer 匯集資料作為輸出曾 最後用`Model()`方法來定義整個 Model 的 input_layer、output_layer
 
 # Compile
+
+## Optimizer
+
+是一個透過更新 Model 的權重（weight）以達到損失函數最小值的演算法以下列出幾個常用的 Optimizer 與其應用範圍  
+| Optimizer | Syntax | Description | Adventage | Disadventage |
+| :---------------: | :-----: | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------- |
+| SGD woth momentum | SGD | 最基本的最佳演算法,透過較小的單位步階沿著 Loss Function 的負梯度方向更新模型參數,同時引入累積前期的梯度項目的 momentum 來強化 SGD | 記憶體用量低 震盪較小 更新較為平順且易收斂 | 需要調配出超參數類型的 Momentum 係數 |
+| RMSprop | RMSprop | 透過將學習率除以平方梯度的指數移動平均值,以調整每個參數的學習率 | 會自行透過每一個參數的學習率達到收斂 | 有時還是要自己調整學習率,有時需要衰減 |
+| Adam | Adam | 結合了 Momentum 和 RMSprop 的想法,維持梯度和梯度平方的移動平均值,做到調整學習率並提供動量 | 收斂速度快,易運作於各類型神經網路架構中;有自是應學習率與較快的收斂速度 | 超參數的靈敏度低,有時要自行調整其參數 |
+| Adamax | Adamax | Adam 的變形,利用過去的梯度最大值來取代 L2 的平均值進行縮放 | 比 Adam 所需調整的超參數少,能在較大梯度上順利運作 | 應用範圍不如 Adam 與 RMSprop |
+| Nadam | Nadam | 將 Nesterov 的加速度與 Adam 的自適應學習率結合 | 保留 Adam 的自恃應學習率特性 | 與 Adam 相同 |
+
+## Loss Function
+
+損失函數量測 model 在訓練資料中的表現 選擇損失函數時取決於你要分析與建立的 model 類型  
+常用的損失函數也有很多種類，分述如下：  
+| Optimizer | Syntax | Description | Adventage | Disadventage |
+| :---------------: | :-----: | ----------- | --------- | ------------ |
+| Mean squared error(MSE) | MeanSquaredError() | Link |||
+| RMSprop | RMSprop | Link |||
+| Adam | Adam | Link |||
+| Adamax | Adamax | Link |||
+| Nadam | Nadam | Link |||
+
+## Metric
+
+Metric 常用來評估模型在訓練與驗證資料的表現 選擇 Metric 時取決於你想要在模型中所得到的結論  
+常用的 Metric 也有很多種類 分述如下：  
+| Optimizer | Syntax | Description | Adventage | Disadventage |
+| :---------------: | :-----: | ----------- | --------- | ------------ |
+| SGD woth momentum | SGD | Link |
+| RMSprop | RMSprop | Link |
+| Adam | Adam | Link |
+| Adamax | Adamax | Link |
+| Nadam | Nadam | Link |
+
+# Reference
+
+[优化器 optimizers - Keras 中文文档](https://keras-cn.readthedocs.io/en/latest/legacy/other/optimizers/)  
+[神經網路訓練參數的特性與使用時機](https://blog.toright.com/posts/7035/keras-tutorial-parameter-algorithm)  
+[Sequential & Functional Model 與 API 細節解說](https://ithelp.ithome.com.tw/m/articles/10330082)  
+[Layers / Model / Module](https://ithelp.ithome.com.tw/m/articles/10328680)
