@@ -62,11 +62,15 @@ model = models.Model(inputs=input_layer, outputs=output_layer)
 常用的損失函數也有很多種類，分述如下：  
 | Optimizer | Syntax | Description | Adventage | Disadventage |
 | :---------------: | :-----: | ----------- | --------- | ------------ |
-| Mean squared error(MSE) | MeanSquaredError() | Link |||
-| RMSprop | RMSprop | Link |||
-| Adam | Adam | Link |||
+| Mean squared error(MSE) | MeanSquaredError() | 通常用於執行 Regression,會計算預測值與實際值之間的平均平方差 |適用於以梯度為基礎的最佳化處理|容易受到資料當中的離群質影響,不是用於分類任務|
+| Binary crossentropy | BinaryCrossentropy() | 用於執行二元分類任務,將預測和
+實際二元標記間的差異做量化 |適用於二元分類任務,並以梯度為基礎的最佳化處理|無法分類多元分類任務,容易在 Class 間的使用上出問題|
+| Categorical crossentropy | CategoricalCrossentropy() | 用於多元分類任務,衡量預測的分類類別機率,與真實分類的分布之間的差異 |光飯使用於處理分類項目較多的任務|很難透過 Loss 參數值看出|
 | Adamax | Adamax | Link |||
 | Nadam | Nadam | Link |||
+
+表格還沒整理完!
+https://ithelp.ithome.com.tw/m/articles/10330082
 
 ## Metric
 
