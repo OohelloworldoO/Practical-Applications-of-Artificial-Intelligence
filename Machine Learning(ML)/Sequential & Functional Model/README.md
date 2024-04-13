@@ -60,33 +60,35 @@ model = models.Model(inputs=input_layer, outputs=output_layer)
 
 損失函數量測 model 在訓練資料中的表現 選擇損失函數時取決於你要分析與建立的 model 類型  
 常用的損失函數也有很多種類，分述如下：  
-| Optimizer | Syntax | Description | Adventage | Disadventage |
+| Loss Function | Syntax | Description | Adventage | Disadventage |
 | :---------------: | :-----: | ----------- | --------- | ------------ |
 | Mean squared error(MSE) | MeanSquaredError() | 通常用於執行 Regression,會計算預測值與實際值之間的平均平方差 |適用於以梯度為基礎的最佳化處理|容易受到資料當中的離群質影響,不是用於分類任務|
 | Binary crossentropy | BinaryCrossentropy() | 用於執行二元分類任務,將預測和
 實際二元標記間的差異做量化 |適用於二元分類任務,並以梯度為基礎的最佳化處理|無法分類多元分類任務,容易在 Class 間的使用上出問題|
 | Categorical crossentropy | CategoricalCrossentropy() | 用於多元分類任務,衡量預測的分類類別機率,與真實分類的分布之間的差異 |光飯使用於處理分類項目較多的任務|很難透過 Loss 參數值看出|
-| Adamax | Adamax | Link |||
-| Nadam | Nadam | Link |||
-
-表格還沒整理完!
-https://ithelp.ithome.com.tw/m/articles/10330082
+| Hinge loss | hinge_loss | 用於二元分類任務同時也支援向量機 SVMs,通過將類別間的邊緣最大化以鼓勵執行正確的分類 |編劇最大化可以做到正確分類與明顯分界,不容易收到異常值影響|對分析數據值為 0 時無法微分;無法直接應用在多元酚類的問題中|
+| Kullback-Leibler divergence | kl_divergence_loss | 用於衡量兩個機率分布的差異性 |很經常應用於 VAE 等生成模型|非一般的 Loss function,以散度值呈現,無法值觀判斷 loss,KL 發散不對稱,KL(P|Q)=!KL(Q|P)|
 
 ## Metric
 
 Metric 常用來評估模型在訓練與驗證資料的表現 選擇 Metric 時取決於你想要在模型中所得到的結論  
 常用的 Metric 也有很多種類 分述如下：  
-| Optimizer | Syntax | Description | Adventage | Disadventage |
+| Metric | Syntax | Description | Adventage | Disadventage |
 | :---------------: | :-----: | ----------- | --------- | ------------ |
-| SGD woth momentum | SGD | Link |
-| RMSprop | RMSprop | Link |
-| Adam | Adam | Link |
-| Adamax | Adamax | Link |
-| Nadam | Nadam | Link |
+|Accuracy | SGD | Link |||
+| RMSprop | RMSprop | Link |||
+| Adam | Adam | Link |||
+| Adamax | Adamax | Link |||
+| Nadam | Nadam | Link |||
+
+表格還沒整理完!
+https://ithelp.ithome.com.tw/m/articles/10330082  
+https://ithelp.ithome.com.tw/m/articles/10328680
 
 # Reference
 
 [优化器 optimizers - Keras 中文文档](https://keras-cn.readthedocs.io/en/latest/legacy/other/optimizers/)  
 [神經網路訓練參數的特性與使用時機](https://blog.toright.com/posts/7035/keras-tutorial-parameter-algorithm)  
 [Sequential & Functional Model 與 API 細節解說](https://ithelp.ithome.com.tw/m/articles/10330082)  
-[Layers / Model / Module](https://ithelp.ithome.com.tw/m/articles/10328680)
+[Layers / Model / Module](https://ithelp.ithome.com.tw/m/articles/10328680)  
+[使用 Keras 建立回歸模型](https://hackmd.io/@flagmaker/rkDYJRLwj)
