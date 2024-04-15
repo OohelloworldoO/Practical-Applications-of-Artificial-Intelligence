@@ -75,13 +75,15 @@ Metric 常用來評估模型在訓練與驗證資料的表現 選擇 Metric 時�
 常用的 Metric 也有很多種類 分述如下：  
 | Metric | Syntax | Description | Adventage | Disadventage |
 | :---------------: | :-----: | ----------- | --------- | ------------ |
-|Accuracy | SGD | Link |||
-| RMSprop | RMSprop | Link |||
-| Adam | Adam | Link |||
-| Adamax | Adamax | Link |||
-| Nadam | Nadam | Link |||
+|Accuracy |from tensorflow.ketras.metrics import Accuracy | 顯示能正確預測的機率 |簡單易讀|在資料不平均時會失衡|
+| Precision | from tensorflow.ketras.metrics import Precision | 能正確預測實際為正值的機率 |易於測量出模型的特異性|在資料不平均時會失衡|
+| Recall | from tensorflow.ketras.metrics import Recall | 能正確預測實際為正值的機率 |易於測量出模型的特異性|在資料不平均時會失衡|
+| F1 score | import tensorflow_addons as tfa | Link |||
+| AUC-ROC | | Link |||
+| mAP | | Link |||
+| Bleu score | | Link |||
+| ROUGE | | Link |||
 
-表格還沒整理完!
 https://ithelp.ithome.com.tw/m/articles/10330082  
 https://ithelp.ithome.com.tw/m/articles/10328680
 
