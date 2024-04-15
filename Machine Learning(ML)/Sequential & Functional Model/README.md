@@ -94,4 +94,7 @@ https://ithelp.ithome.com.tw/m/articles/10328680
 [Sequential & Functional Model 與 API 細節解說](https://ithelp.ithome.com.tw/m/articles/10330082)  
 [Layers / Model / Module](https://ithelp.ithome.com.tw/m/articles/10328680)  
 [使用 Keras 建立回歸模型](https://hackmd.io/@flagmaker/rkDYJRLwj)
-[Keras 的優化器 Optimizer](https://ithelp.ithome.com.tw/articles/10304509?sc=rss.iron)
+[Keras 的優化器 Optimizer](https://ithelp.ithome.com.tw/articles/10304509?sc=rss.iron)  
+[算法挑選、CNN、RNN、Layers](https://hackmd.io/@Reji/HJd-UmFyt)  
+[銷售量預測 -- LSTM 的另一個應用](https://ithelp.ithome.com.tw/articles/10195400)  
+[Tensorflow、Transformers、Keras、sklearn](https://hackmd.io/j9hxP9hhTaugp2uCFiLnOg#LSTM)
