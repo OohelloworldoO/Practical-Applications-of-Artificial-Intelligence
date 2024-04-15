@@ -81,9 +81,9 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 # Final Project
 
-|                   Topic                    |                                       Description                                        | Link                                                                  |
-| :----------------------------------------: | :--------------------------------------------------------------------------------------: | --------------------------------------------------------------------- |
-| Stock prediction by using machine learning | Stock prediction by using machine learning.Find the best way to solve the invest problem | [Middle Project](<./Data Analysis/project/Predict stock price.ipynb>) |
+|                   Topic                    |                                       Description                                        | Code Link                                                             | Slide Link                                                                                                                                                                              |
+| :----------------------------------------: | :--------------------------------------------------------------------------------------: | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stock prediction by using machine learning | Stock prediction by using machine learning.Find the best way to solve the invest problem | [Middle Project](<./Data Analysis/project/Predict stock price.ipynb>) | [Stock prediction Slide](https://www.canva.com/design/DAF_WjAL4As/aVMomh_VPh9QjjOxYeeefw/edit?utm_content=DAF_WjAL4As&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Stock prediction by using machine learning |                              More useful than the last one                               | [Final Project](<./Data Analysis/project/Predict stock price.ipynb>)  |
 
 # 安裝問題
