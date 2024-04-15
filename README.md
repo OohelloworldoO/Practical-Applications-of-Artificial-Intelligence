@@ -81,9 +81,9 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 # Final Project
 
-|                   Topic                    |                    Link                     | Link |
-| :----------------------------------------: | :-----------------------------------------: | ---- |
-| Stock prediction by using machine learning | [Final Project](<./Data Analysis/Project/>) | Link |
+|                   Topic                    |                                 Link                                 | Link |
+| :----------------------------------------: | :------------------------------------------------------------------: | ---- |
+| Stock prediction by using machine learning | [Final Project](<./Data Analysis/Project/Predict stock price.ipynb>) | Link |
 
 # 安裝問題
 
