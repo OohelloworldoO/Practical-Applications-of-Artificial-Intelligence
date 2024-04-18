@@ -1,16 +1,49 @@
 # Machine Learning
 
-## Activation Function
-
-ML = Regression + Classification + Structured Learning(create something with structure)
-
 | Topic |                               Link                               |
 | :---: | :--------------------------------------------------------------: |
 |  CNN  | [README.md](<./Convolutional%20Neural%20Network(CNN)/README.md>) |
 |  DNN  |     [README.md](<./Deep%20Neural%20Network(DNN)/README.md>)      |
 |  RNN  |   [README.md](<./Recurrent%20Neural%20Network(RNN)/README.md>)   |
 
+## Activation Function
+
+Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成  
+![式子](./images/式子.png)  
+其中 Wx 的矩陣是常見的 Linear operation 不過`Wx + b`嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)  
+activation function 會提供 NN 模型非線性的特性  
+![affine operation](./images/affine%20operation.png)  
+所以建構 NN 所使用的 activation functions 通常是非線性的  
+最重要的目的就是為模型加入非線性的特性 透過非線性的 activation functions 的推疊 模型可以捕捉到複雜的資料背後蘊含的規則
+常見的 activation functions 類型:  
+![Sigmoid](./images/Sigmoid%20Function.png)
+
+Features:
+
+- 1.可微分且有平滑的 gradient
+- 2.輸出範圍為 0~1，輸入數值越大（正值）則輸出越接近 1，輸入數值越小（負值）則輸出越接近 0，因此適合做為機率預測模型的輸出層
+- 3.當輸入數值大於或小於一定的範圍時，sigmoid 的輸出差異不大，因此 gradient 極小，這會導致訓練模型時遭遇梯度消失（vanishing gradients）的問題。這樣的問題在深度模型會更明顯，因為變化極大的輸入經過多次的壓縮到很小的輸出範圍，gradient 更可能小到無法有效訓練模型
+
+![Tanh](./images/Tanh%20function.png)
+
+Features:
+
+- 可微分且有平滑的 gradient
+- 與 sigmoid 相似，但輸出範圍為 -1~1。由於輸出以 0 為中心，適合用在預測正向、中性與負向關係模型的輸出層。另外用於 hidden layers 時可以將輸入標準化（normalization）且以 0 為中心，據說（？）有助於後面的 layers 的學習
+- 另一個與 sigmoid 相似的點是 tanh 也會遭遇梯度消失（vanishing gradients）的問題，儘管 tanh 的 gradient 已經比 sigmoid 的 gradient 更陡峭
+
+![ReLU](./images/ReLU%20function.png)
+
+Features:
+
+- 只將大於 0 的輸入維持原樣輸出，小於 0 的輸入全都轉換為 0。可以想成只在輸入大於 0 時 activated，計算上比較有效率
+- 不會飽和（non-saturating）的特性可免於梯度消失（vanishing gradients）的問題，使得模型更容易收斂，是目前很常使用的 activation function
+- 如果輸入都是負的，將會全部被轉換為 0，使得梯度為 0，因此部分的 weights 和 biases 就無法被更新，進而可能使得 neurons 成為永遠不會 activated 的 dead neurons，這會讓訓練模型缺乏效率（Dying ReLU Problem）
+
 ## Machine Learning steps
+
+ML = Regression + Classification + Structured  
+Learning(create something with structure)
 
 ### Step 1. Function with unknown
 
