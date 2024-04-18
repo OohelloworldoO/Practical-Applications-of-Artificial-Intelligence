@@ -45,6 +45,15 @@ Features:
 - 不會飽和（non-saturating）的特性可免於梯度消失（vanishing gradients）的問題，使得模型更容易收斂，是目前很常使用的 activation function
 - 如果輸入都是負的，將會全部被轉換為 0，使得梯度為 0，因此部分的 weights 和 biases 就無法被更新，進而可能使得 neurons 成為永遠不會 activated 的 dead neurons，這會讓訓練模型缺乏效率（Dying ReLU Problem）
 
+### 如何選擇 activation function
+
+|                                                    Hidden layers                                                    |                                                                          Output layer                                                                          |
+| :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                        一般同一個模型的所有 hidden layers 都會使用同一種 activation function                        |                                                           二元分類（Binary classification）：Sigmoid                                                           |
+|                          通常會選擇最常使用的 ReLU 開始嘗試，視是否達到預期成果再進行調整                           |                                                        多類別分類（Muticlass classification）：Softmax                                                         |
+| 避免在非常多層的 network 的 hidden layers 使用 sigmoid 或 tanh，否則很可能遭遇梯度消失（vanishing gradients）的問題 | 多標籤分類（Multilabel classification）：Sigmoid，預測結果可能多於一個 labels，因此每個類別以 0 到 1 的機率個別表示該類別是 label 的機率，所有機率不須總和為 1 |
+|                           聽說（？） swish 適合用於超過 40 層的 networks，有機會想試試看                            |                                                             輸出數值的正負代表正向及負向意義：Tanh                                                             |
+
 ## Machine Learning steps
 
 ML = Regression + Classification + Structured  
