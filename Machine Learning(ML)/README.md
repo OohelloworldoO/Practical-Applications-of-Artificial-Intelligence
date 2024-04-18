@@ -84,4 +84,7 @@ https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF
 [資料分析 & 機器學習](https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC2-2%E8%AC%9B-%E5%A6%82%E4%BD%95%E7%8D%B2%E5%8F%96%E8%B3%87%E6%96%99-google-map-api-beb7c88dc4e3)  
 [How to build a machine learning model](https://towardsdatascience.com/how-to-build-a-machine-learning-model-439ab8fb3fb1)  
 [Keras sequential vs functional API](https://www.youtube.com/watch?v=EvGS3VAsG4Y)  
-[EarlyStopping Callbacks](https://cynthiachuang.github.io/EarlyStopping-Callback/)
+[EarlyStopping Callbacks](https://cynthiachuang.github.io/EarlyStopping-Callback/)  
+[Activation Function 怎麼影響模型](https://yuehhua.github.io/2018/07/27/activation-function/)  
+[深度學習基本概念(數學)：Activation functions ](https://medium.com/@yingyuchentw003/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-activation-functions-8d890d650e8a)  
+[Activation Function 是甚麼?](https://medium.com/%E6%B7%B1%E6%80%9D%E5%BF%83%E6%80%9D/ml08-activation-function-%E6%98%AF%E4%BB%80%E9%BA%BC-15ec78fa1ce4)
