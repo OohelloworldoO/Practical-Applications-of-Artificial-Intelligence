@@ -1,11 +1,12 @@
 # Machine Learning
 
 ML = Regression + Classification + Structured Learning(create something with structure)
-| Topic | Link |
-| :----------------: | :-------------------------------------------------------------------------------: |
-| CNN | [README.md](<./Convolutional%20Neural%20Network(CNN)/README.md>)|
-| DNN |[README.md](<./Deep%20Neural%20Network(DNN)/README.md>) |
-| RNN | [README.md](<./Recurrent%20Neural%20Network(RNN)/README.md>)|
+
+| Topic |                               Link                               |
+| :---: | :--------------------------------------------------------------: |
+|  CNN  | [README.md](<./Convolutional%20Neural%20Network(CNN)/README.md>) |
+|  DNN  |     [README.md](<./Deep%20Neural%20Network(DNN)/README.md>)      |
+|  RNN  |   [README.md](<./Recurrent%20Neural%20Network(RNN)/README.md>)   |
 
 ## Machine Learning steps
 
