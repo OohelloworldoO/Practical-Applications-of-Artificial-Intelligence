@@ -24,8 +24,7 @@ Classical Machine Learning 更依賴人類干預來學習 由我們來定義特�
 而純粹的 Linear Combination 是無法解決更為複雜的問題  
 所以常見的激活函數都是非線性的 使得 NN 可以逼近其他任何非線性函數 NN 可以應用到到更多非線性模型中
 
-[如何理解激活函數?](https://zhuanlan.zhihu.com/p/364620596)
-[激活函數](https://ithelp.ithome.com.tw/m/articles/10276865)
+詳細我寫在 README.md: [Machine Learning Activation Function](<./Machine%20Learning(ML)/README.md>)
 
 ## Deep Learning
 

@@ -1,5 +1,7 @@
 # Machine Learning
 
+## Activation Function
+
 ML = Regression + Classification + Structured Learning(create something with structure)
 
 | Topic |                               Link                               |
