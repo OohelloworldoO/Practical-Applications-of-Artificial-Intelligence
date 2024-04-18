@@ -45,6 +45,12 @@ Features:
 - 不會飽和（non-saturating）的特性可免於梯度消失（vanishing gradients）的問題，使得模型更容易收斂，是目前很常使用的 activation function
 - 如果輸入都是負的，將會全部被轉換為 0，使得梯度為 0，因此部分的 weights 和 biases 就無法被更新，進而可能使得 neurons 成為永遠不會 activated 的 dead neurons，這會讓訓練模型缺乏效率（Dying ReLU Problem）
 
+![Softmax](./images/Softmax%20function.png)  
+![Softmax](./images/Softmax%20function%202.png)  
+Features:
+
+- 將一個數值陣列轉換為總合為 1 的機率分布，適合做為多類別分類（multi-class classification）模型的輸出層
+
 ### 如何選擇 activation function
 
 |                                                    Hidden layers                                                    |                                                                          Output layer                                                                          |
