@@ -9,13 +9,18 @@
 ## Activation Function
 
 Activation Function 在 nerual network、deep learning 中是很重要的角色 基本上由此式子組成  
-![式子](./images/式子.png)  
+![式子](./images/式子.png)
+
 其中 Wx 的矩陣是常見的 Linear operation 不過`Wx + b`嚴格來說是稱為 affine operation(仿射運算 相對應線性空間)  
-activation function 會提供 NN 模型非線性的特性  
-![affine operation](./images/affine%20operation.png)  
+activation function 會提供 NN 模型非線性的特性
+
+![affine operation](./images/affine%20operation.png)
+
 所以建構 NN 所使用的 activation functions 通常是非線性的  
 最重要的目的就是為模型加入非線性的特性 透過非線性的 activation functions 的推疊 模型可以捕捉到複雜的資料背後蘊含的規則
-常見的 activation functions 類型:  
+
+### 常見的 activation functions 類型:
+
 ![Sigmoid](./images/Sigmoid%20Function.png)
 
 Features:
