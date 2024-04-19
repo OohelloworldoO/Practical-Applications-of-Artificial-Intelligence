@@ -39,7 +39,7 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 [IBM Technology: Machine Learning vs Deep Learning](https://www.youtube.com/watch?v=q6kJ71tEYqM)
 
-## Machine Learning Project
+## Machine Learning Project(NTU)
 
 |                    |                                                                Topic                                                                 |                      platform                       |
 | :----------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
@@ -59,7 +59,7 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 | Life-Long Learning |                                      [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
 |   Meta Learning    |                                      [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)                                       |                        Link                         |
 
-## Applied Deep Learning Project
+## Applied Deep Learning Project(NTU)
 
 |       Topic        |                                       Link                                        | Link |
 | :----------------: | :-------------------------------------------------------------------------------: | ---- |
@@ -79,7 +79,17 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 | Life-Long Learning |             [Hw14](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
 |   Meta Learning    |             [Hw15](<./Machine%20Learning(ML)/Homework/Regression.py>)             | Link |
 
-# Project
+## Practical Applications of Artificial Intelligence Project(NQU)
+
+|                       Topic                        |  Link   | Slide |
+| :------------------------------------------------: | :-----: | ----- |
+| Attribute selection mechanism for diabetes dataset |  None   | Link  |
+|              Mnist dataset using CNN               | [Hw2]() | None  |
+|                 Cifar-10 using CNN                 | [Hw3]() | None  |
+|                                                    | [Hw4]() | None  |
+|                                                    | [Hw5]() | None  |
+
+## My Project
 
 |                  Topic                  |                                        Description                                        | Code Link                                                              | Slide Link                                                                                                                                                                              |
 | :-------------------------------------: | :---------------------------------------------------------------------------------------: | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
