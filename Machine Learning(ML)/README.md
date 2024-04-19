@@ -53,12 +53,12 @@ Features:
 
 ### 如何選擇 activation function
 
-|                                                    Hidden layers                                                    |                                                                          Output layer                                                                          |
-| :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                        一般同一個模型的所有 hidden layers 都會使用同一種 activation function                        |                                                           二元分類（Binary classification）：Sigmoid                                                           |
-|                          通常會選擇最常使用的 ReLU 開始嘗試，視是否達到預期成果再進行調整                           |                                                        多類別分類（Muticlass classification）：Softmax                                                         |
+| Hidden layers                                                                                                       | Output layer                                                                                                                                                   |
+| :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 一般同一個模型的所有 hidden layers 都會使用同一種 activation function                                               | 二元分類（Binary classification）：Sigmoid                                                                                                                     |
+| 通常會選擇最常使用的 ReLU 開始嘗試，視是否達到預期成果再進行調整                                                    | 多類別分類（Muticlass classification）：Softmax                                                                                                                |
 | 避免在非常多層的 network 的 hidden layers 使用 sigmoid 或 tanh，否則很可能遭遇梯度消失（vanishing gradients）的問題 | 多標籤分類（Multilabel classification）：Sigmoid，預測結果可能多於一個 labels，因此每個類別以 0 到 1 的機率個別表示該類別是 label 的機率，所有機率不須總和為 1 |
-|                           聽說（？） swish 適合用於超過 40 層的 networks，有機會想試試看                            |                                                             輸出數值的正負代表正向及負向意義：Tanh                                                             |
+| 聽說（？） swish 適合用於超過 40 層的 networks，有機會想試試看                                                      | 輸出數值的正負代表正向及負向意義：Tanh                                                                                                                         |
 
 ## Machine Learning steps
 
@@ -140,4 +140,6 @@ https://cvfiasd.pixnet.net/blog/post/275774124-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF
 [EarlyStopping Callbacks](https://cynthiachuang.github.io/EarlyStopping-Callback/)  
 [Activation Function 怎麼影響模型](https://yuehhua.github.io/2018/07/27/activation-function/)  
 [深度學習基本概念(數學)：Activation functions ](https://medium.com/@yingyuchentw003/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-activation-functions-8d890d650e8a)  
-[Activation Function 是甚麼?](https://medium.com/%E6%B7%B1%E6%80%9D%E5%BF%83%E6%80%9D/ml08-activation-function-%E6%98%AF%E4%BB%80%E9%BA%BC-15ec78fa1ce4)
+[Activation Function 是甚麼?](https://medium.com/%E6%B7%B1%E6%80%9D%E5%BF%83%E6%80%9D/ml08-activation-function-%E6%98%AF%E4%BB%80%E9%BA%BC-15ec78fa1ce4)  
+[The category of Deep Learning](https://ithelp.ithome.com.tw/articles/10217967)  
+[Multilayer perceptron(MLP) 詳細推導](https://hackmd.io/@wayne0509/ryTVXpmMw)
