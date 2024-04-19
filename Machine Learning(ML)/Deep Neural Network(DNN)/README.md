@@ -18,4 +18,4 @@ Multilayer perceptron 是一種前向傳遞類神經網路
 
 # Reference
 
-[MLP](https://hackmd.io/@wayne0509/ryTVXpmMw)
+[Multilayer perceptron(MLP) 含 Backward propagation 詳細推導](https://hackmd.io/@wayne0509/ryTVXpmMw)
