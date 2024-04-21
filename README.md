@@ -81,13 +81,14 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 
 ## Practical Applications of Artificial Intelligence Project(NQU)
 
-|                       Topic                        |  Link   | Slide |
-| :------------------------------------------------: | :-----: | ----- |
-| Attribute selection mechanism for diabetes dataset |  None   | Link  |
-|              Mnist dataset using CNN               | [Hw2]() | None  |
-|                 Cifar-10 using CNN                 | [Hw3]() | None  |
-|                                                    | [Hw4]() | None  |
-|                                                    | [Hw5]() | None  |
+|                              Topic                              |   Link   | Slide |
+| :-------------------------------------------------------------: | :------: | ----- |
+|       Attribute selection mechanism for diabetes dataset        |   None   | Link  |
+| Classifying Handwritten Digits Using Multilayer Perceptron(MLP) | [Link]() | None  |
+|                     Mnist dataset using CNN                     | [Hw2]()  | None  |
+|                       Cifar-10 using CNN                        | [Hw3]()  | None  |
+|                                                                 | [Hw4]()  | None  |
+|                                                                 | [Hw5]()  | None  |
 
 ## My Project
 
