@@ -87,7 +87,7 @@ Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式
 | Classifying Handwritten Digits Using Multilayer Perceptron(MLP) | [Link](<./Machine%20Learning(ML)/Deep%20Neural%20Network(DNN)/Classifying%20Handwritten%20Digits%20Using%20Multilayer%20Perceptron(MLP).ipynb>) | None  |
 |                     Mnist dataset using CNN                     |                  [Hw2](<./Machine%20Learning(ML)/Convolutional%20Neural%20Network(CNN)/Mnist%20datasets%20using%20CNN.ipynb>)                   | None  |
 |                       Cifar-10 using CNN                        |                      [Hw3](<./Machine%20Learning(ML)/Convolutional%20Neural%20Network(CNN)/CIFAR-10%20using%20CNN.ipynb>)                       | None  |
-|                                                                 |                                                                     [Hw4]()                                                                     | None  |
+|              Titanic Survived Prediction using MLP              |               [Hw4](<./Machine%20Learning(ML)/Deep%20Neural%20Network(DNN)/Titanic%20Survived%20Prediction%20using%20MLP.ipynb>)                | None  |
 |                                                                 |                                                                     [Hw5]()                                                                     | None  |
 
 ## My Project
