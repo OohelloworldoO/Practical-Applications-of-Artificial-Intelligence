@@ -1,7 +1,7 @@
 # What are the different between ML and DL?
 
-釐清前對於 AI 我是毫無頭緒 甚至不知道從何開始學起
-所以在學習前我想先搞懂 ML、DL 還有一些 NN、CNN、RNN...等等之間的關係
+釐清前對於 AI 我是毫無頭緒 甚至不知道從何開始學起  
+所以在學習前我想先搞懂 ML、DL 還有一些 NN、CNN、RNN...等等之間的關係  
 還有像是 TensorFlow、OpenCV、BERT 是做甚麼用的等等...
 
 Deep Learning => Neural Network => Machine Learning => AI
@@ -10,17 +10,17 @@ Deep Learning => Neural Network => Machine Learning => AI
 
 ## Machine Learning
 
-我們定義模型中的權重(weight) 並使用激活函數(Activation Function)來計算
-Classical Machine Learning 更依賴人類干預來學習，由我們來定義特徵的層次結構來理解資料輸入之間的差異 過程包括人工干預/人工監督 (human supervision)
+我們定義模型中的權重(weight) 並使用激活函數(Activation Function)來計算  
+Classical Machine Learning 更依賴人類干預來學習 由我們來定義特徵的層次結構來理解資料輸入之間的差異 過程包括人工干預/人工監督 (human supervision)
 
 ### What is Activation Function?
 
-在 NN 中 我們會發現在每一層的 NN 輸出後都會使用一個函數(Sigmoid, Tanh, ReLU...)對結果進行運算 這個函數就是激活函數
-而 Activation Function 就是在幫助機器學習資料中的複雜模式
+在 NN 中 我們會發現在每一層的 NN 輸出後都會使用一個函數(Sigmoid, Tanh, ReLU...)對結果進行運算 這個函數就是激活函數  
+而 Activation Function 就是在幫助機器學習資料中的複雜模式  
 激活函數分為線性(如: f(x)=x) / 非線性激活函數(如: Sigmoid, Tanh, ReLU, LReLU, PReLU, Swish)
 
-因為 NN 中的每個 Layer 的 in/output 都是線性求和的過程 下一層的輸出只是承接了上一層函數的線性變換
-所以如果沒有 Activation Function，無論構造多複雜的 NN 最後的輸出都是輸入的線性組合 而純粹的 Linear Combination 是無法解決更為複雜的問題
+因為 NN 中的每個 Layer 的 in/output 都是線性求和的過程 下一層的輸出只是承接了上一層函數的線性變換  
+所以如果沒有 Activation Function，無論構造多複雜的 NN 最後的輸出都是輸入的線性組合 而純粹的 Linear Combination 是無法解決更為複雜的問題  
 所以常見的激活函數都是非線性的 使得 NN 可以逼近其他任何非線性函數 NN 可以應用到更多非線性模型中
 
 詳細我寫在 README.md 的 Activation Functions 部分：  
@@ -28,9 +28,9 @@ Classical Machine Learning 更依賴人類干預來學習，由我們來定義�
 
 ## Deep Learning
 
-如果 NN consists more then three layers(include in/output) 則此 NN 被視為 Deep Neural Network (DNN)
+如果 NN consists more then three layers(include in/output) 則此 NN 被視為 Deep Neural Network (DNN)  
 ![Deep Neural Network](<./Machine%20Learning(ML)/images/Deep%20Neural%20Network.png> "Deep Neural Network")  
-Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式的非結構化數據 並可以自動區分各資料的一組特徵
+Deep Machine Learning 不一定需要標籤資料集 他可以攝取原始形式的非結構化數據 並可以自動區分各資料的一組特徵  
 演算法不需要人工干預就可以發現資料分組的隱藏模式 -非監督式學習(Unsupervised Learning)
 
 所以 ML 跟 DL 兩者之間其實是同一研究領域 兩者的主要區別在於 NN 的層數  
